@@ -1,6 +1,10 @@
+"use client"
+
+import Link from 'next/link'
 import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
 import CardVacina from "../components/CardVacina/CardVacina";
+
 
 import './vacinas.css';
 
@@ -104,7 +108,8 @@ export default function Vacinas() {
 			<div className="conteudo">
 				<h1>Vacinas Disponíveis</h1>
 				<div className="vacinas-card">
-					{vacinas.map((itens) => (<CardVacina key={itens.nome} nome={itens.nome} descricao={itens.descricao} imagem={itens.imagem} />))}
+					{vacinas.map((vacina) => (<Link href={`/detalhe?nome=${vacina.nome}`} ><CardVacina key={vacina.nome} nome={vacina.nome}
+						descricao={vacina.descricao} imagem={vacina.imagem} /></Link>))}
 				</div>
 			</div>
 			<FooterNav />

@@ -46,10 +46,6 @@ section {
   flex: 1;
 }
 
-.campo__data-validade > * {
-  flex: 1;
-}
-
 .botao {
   display: flex;
   justify-content: center;
