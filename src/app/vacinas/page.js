@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
 import CardVacina from "../components/CardVacina/CardVacina";
 
-
 import './vacinas.css';
 
 const vacinas = [
@@ -100,6 +99,8 @@ const vacinas = [
 		imagem: '/assets/img/vacinas/menigococicaACWY.png',
 	},
 ]
+const numeroDeCards = vacinas.length;
+const vacinasParaRenderizar = vacinas.slice(0, numeroDeCards);
 
 export default function Vacinas() {
 	return (
@@ -108,12 +109,12 @@ export default function Vacinas() {
 			<div className="conteudo">
 				<h1>Vacinas Disponíveis</h1>
 				<div className="vacinas-card">
-					{vacinas.map((vacina) => (<Link href={`/detalhe?nome=${vacina.nome}`} ><CardVacina key={vacina.nome} nome={vacina.nome}
+					{vacinasParaRenderizar.map((vacina) => (<Link href={`/detalhe?nome=${vacina.nome}`} className='vacina-link' ><CardVacina key={vacina.nome} nome={vacina.nome}
 						descricao={vacina.descricao} imagem={vacina.imagem} /></Link>))}
 				</div>
 			</div>
 			<FooterNav />
-		</div>
+		</div >
 	);
 }
 

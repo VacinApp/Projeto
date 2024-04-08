@@ -12,11 +12,14 @@
 
 .vacinas-card {
   display: grid;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 16px 16px; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px 16px;
 }
-
+.vacina-link {
+  text-decoration: none;
+  color: var(--preto);
+}
 /* Media Screen */
 /* extra large devices: 768 > */
 @media screen and (min-width: 768px) {
@@ -25,15 +28,15 @@
   }
 
   .vacinas-card {
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
 /* large devices: 1023 > */
 @media screen and (min-width: 1024px) {
   .vacinas-card {
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }

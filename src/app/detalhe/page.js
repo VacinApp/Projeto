@@ -7,7 +7,7 @@ export default function PagDetalhe() {
     return (
         <div>
             <Navbar />
-            <Detalhe nome={nome} descricao={descricao} />
+            <Detalhe />
             <FooterNav />
         </div >
     )
