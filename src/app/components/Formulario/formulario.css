@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.img {
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.cabecalho {
+  margin: 1.5rem 0;
+}
+
+.cabecalho h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.cabecalho p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--cinza);
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.campo__data-validade {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+}
+
+.campo__data-validade > * {
+  flex: 1;
+}
+
+.campo__data-validade > * {
+  flex: 1;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.cadastrar {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+} 
+
+/* Media Screen */
+/* extra large devices: 768 > */
+@media screen and (min-width: 768px) {
+  .cabecalho h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* large devices: 1023 > */
+@media (min-width: 1024px) {
+  .img {
+    display: flex;
+  }
+
+  .formulario {
+    max-width: 50rem;
+  }
+
+  .cadastrar {
+    padding: 1rem 2rem;
+    margin: 1.85rem 0 0 auto;
+  }
+}
+
+/* large devices: 1440 > */
+@media (min-width: 1440px) {
+  .doutores-img {
+    width: 60%;
+  }
+}

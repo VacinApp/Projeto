@@ -1,0 +1,39 @@
+.conteudo {
+  flex-direction: column;
+}
+
+.conteudo h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.vacinas-card {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 16px 16px; 
+}
+
+/* Media Screen */
+/* extra large devices: 768 > */
+@media screen and (min-width: 768px) {
+  .conteudo h1 {
+    font-size: 1.5rem;
+  }
+
+  .vacinas-card {
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+  }
+}
+
+/* large devices: 1023 > */
+@media screen and (min-width: 1024px) {
+  .vacinas-card {
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+  }
+}

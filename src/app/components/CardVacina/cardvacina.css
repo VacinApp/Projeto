@@ -1,0 +1,42 @@
+.cardVacina {
+  display: flex;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  height: 5.5rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cardVacina img {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardVacina .descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cardVacina h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical; 
+}
+
+.cardVacina p {
+  font-size: 0.8rem;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; 
+}

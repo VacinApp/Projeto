@@ -1,0 +1,76 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 10px -10px 30px rgba(0, 0, 0, 0.09);
+  padding: 1.2rem 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: var(--branco);
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.icon-home,
+.icon-droplet,
+.icon-map,
+.icon-folder {
+  color: var(--cinza);
+  font-size: 1.5rem;
+}
+
+.icon-home.active,
+.icon-droplet.active,
+.icon-map.active,
+.icon-folder.active {
+  color: var(--azul);
+}
+
+.rodape {
+  display: none;
+}
+
+.rodape img {
+  width: 12.5rem;
+}
+
+@media (min-width: 1023px) {
+  .nav {
+    display: none;
+  }
+
+  .rodape {
+    width: 95%;
+    margin: 2.25rem auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+  }
+
+  .rodape div {
+    margin-top: 1.125rem;
+  }
+
+  .rodape h2,
+  .rodape h3 {
+    color: var(--azul);
+    font-weight: 700;
+  }
+
+  .rodape h2 {
+    font-size: 1.25rem;
+  }
+
+  .rodape h3 {
+    font-size: 1.125rem;
+  }
+
+  .rodape p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
