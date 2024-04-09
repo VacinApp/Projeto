@@ -40,7 +40,7 @@ const Formulario = ({ aoCadastrar, vacinas, doses }) => {
 			<form className='formulario' onSubmit={aoEnviar}>
 				<div className='cabecalho'>
 					<h1>Registre sua Vacina</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis,massa nec lacinia ornare, nunc nisl pretium justo, in lobortis purus lorem dapibus nisi. </p>
+					<p>Mantenha-se informado sobre o seu histórico de imunização. Faça a sua parte na proteção da saúde pública. </p>
 				</div>
 				
 				<ListaSuspensaForm
@@ -61,11 +61,13 @@ const Formulario = ({ aoCadastrar, vacinas, doses }) => {
 					<CampoForm
 						label='Data da Vacinação'
 						valor={data}
+						type='date'
 						aoAlterar={valor => setData(valor)}
 					/>
 					<CampoForm
 						label='Validade do Lote'
 						valor={validade}
+						type='date'
 						aoAlterar={valor => setValidade(valor)} 
 					/>
 				</div>

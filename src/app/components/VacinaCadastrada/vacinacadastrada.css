@@ -1,0 +1,48 @@
+.containerVacinaCadastrada {
+  border-top: 1px solid var(--cinza);
+  margin-bottom: 1.1rem;
+}
+
+.vacinaCadastradaCabecalho {
+  display: flex;
+  margin-top: 1.1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.conteudoCarteira {
+  display: flex;
+  gap: 1rem;
+}
+
+.carteira {
+  display: none;
+}
+
+.carteiraAtiva {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.carteiraAtiva p {
+  margin-top: 0.5rem;
+}
+
+.carteiraAcoes {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.botaoAbrirFechar {
+  border: none;
+  background-color: white;
+}
+
+@media (min-width: 1023px) {
+  .carteiraConteudoPrincipal{
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 section {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
+}
+
+input[type="date"] {
+  font-family: "Montserrat", sans-serif; /* Define a fonte */
 }
 
 .img {
@@ -46,10 +50,6 @@ section {
   flex: 1;
 }
 
-.campo__data-validade > * {
-  flex: 1;
-}
-
 .botao {
   display: flex;
   justify-content: center;
@@ -70,10 +70,12 @@ section {
   cursor: pointer;
 }
 
-textarea:focus, input:focus, select:focus {
+textarea:focus,
+input:focus,
+select:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
-} 
+}
 
 /* Media Screen */
 /* extra large devices: 768 > */
