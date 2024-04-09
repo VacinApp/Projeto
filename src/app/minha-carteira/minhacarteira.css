@@ -1,0 +1,16 @@
+.minhasVacinas {
+  margin: 6.5rem 1.5rem 1.5rem;
+}
+
+.minhasVacinas h1 {
+  margin-bottom: 1rem;
+}
+
+.minhasVacinasCabecalho {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkAdicionar {
+  align-self: flex-end;
+}
