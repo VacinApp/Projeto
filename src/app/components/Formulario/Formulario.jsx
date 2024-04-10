@@ -33,9 +33,9 @@ const Formulario = ({ aoCadastrar, vacinas, doses }) => {
 	}
 
 	return (
-		<section>
-			<div className="img">
-				<img className='doutores-img' src='/assets/img/form/doutores.svg' />
+		<section className='containerForm'>
+			<div className="formImg">
+				<img className='doutoresImg' src='/assets/img/form/doutores.svg' />
 			</div>
 			<form className='formulario' onSubmit={aoEnviar}>
 				<div className='cabecalho'>

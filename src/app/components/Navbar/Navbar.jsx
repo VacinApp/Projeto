@@ -14,7 +14,7 @@ const Navbar = () => {
 			<img src='/assets/img/logo.png' className='titulo'/>
 			<nav className='container__nav'>
 				<Link href="/" className={pathname === "/" ? 'nav__links ativa' : 'nav__links'}>Home</Link>
-				<Link href="/formulario" className={pathname === "/formulario" ? 'nav__links ativa' : 'nav__links'}>Localização</Link>
+				<Link href="#" className={pathname === "#" ? 'nav__links ativa' : 'nav__links'}>Localização</Link>
 				<Link href="/vacinas" className={pathname === "/vacinas" ? 'nav__links ativa' : 'nav__links'}>Vacinas</Link>
 				<Link href="/minha-carteira" className={pathname === "/minha-carteira" ? 'nav__links ativa' : 'nav__links'}>Minha Carteira</Link>
 			</nav>

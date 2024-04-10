@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-section {
+.containerForm {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -11,7 +11,7 @@ input[type="date"] {
   font-family: "Montserrat", sans-serif; /* Define a fonte */
 }
 
-.img {
+.formImg {
   width: 80%;
   justify-content: center;
   display: flex;
@@ -87,7 +87,7 @@ select:focus {
 
 /* large devices: 1023 > */
 @media (min-width: 1024px) {
-  .img {
+  .formImg {
     display: flex;
   }
 
@@ -103,7 +103,7 @@ select:focus {
 
 /* large devices: 1440 > */
 @media (min-width: 1440px) {
-  .doutores-img {
+  .doutoresImg {
     width: 60%;
   }
 }
