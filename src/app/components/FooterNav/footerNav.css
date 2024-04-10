@@ -44,7 +44,8 @@
 
   .rodape {
     width: 95%;
-    margin: 2.25rem auto;
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #797979;
