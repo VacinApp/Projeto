@@ -9,7 +9,6 @@
   text-align: left;
   width: 100%;
 }
-
 .vacinas-card {
   display: grid;
   grid-template-columns: 1fr;
@@ -37,6 +36,5 @@
 @media screen and (min-width: 1024px) {
   .vacinas-card {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
   }
 }
