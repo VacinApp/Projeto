@@ -34,7 +34,7 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs }) => {
           <p><strong>Lote: </strong>{lote}</p>
         </div>
 
-        <p><strong>Observação:</strong>{obs}</p>
+        <p><strong>Observação: </strong>{obs}</p>
 
         <div className='carteiraAcoes'>
           <div className='icon-edit'></div>

@@ -6,6 +6,9 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "VacinApp",
   description: "Projeto de desenvolvimento Web Mobile",
+  icons: {
+    icon: '/icon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {

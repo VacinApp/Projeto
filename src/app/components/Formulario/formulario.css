@@ -68,6 +68,11 @@ input[type="date"] {
   font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.cadastrar:hover {
+  background-color: var(--azul-25);
 }
 
 textarea:focus,

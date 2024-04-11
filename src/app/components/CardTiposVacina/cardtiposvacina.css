@@ -1,0 +1,21 @@
+.cardTiposVacina {
+  max-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cardTiposVacina img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.cardTiposVacina p {
+  margin-top: 1rem;
+  font-weight: 600;
+}

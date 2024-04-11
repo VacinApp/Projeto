@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+
 import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
 import CardVacina from "../components/CardVacina/CardVacina";

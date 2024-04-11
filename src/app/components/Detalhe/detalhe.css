@@ -23,14 +23,42 @@
   background-color: var(--branco);
 }
 
+.botao {
+  justify-content: center;
+  display: flex;
+}
+
 .detalheBotao {
-  padding: 1rem 1.25rem 0.8rem 1.25rem;
-  background-color: #00bfff;
-  border: none;
-  color: #fff;
-  border-radius: 0.5rem;
   font-family: "Montserrat", sans-serif;
+  background-color: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  align-self: center;
-  margin-top: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.detalheBotao:hover {
+  background-color: var(--azul-25);
+}
+
+@media (min-width: 1023px) {
+  .detalheContainer {
+    flex-direction: row;
+  }
+
+  .detalheContainer img {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .detalheConteudo {
+    padding-inline: 3rem;
+    margin-bottom: 0;
+  }
 }

@@ -1,21 +1,14 @@
 "use client";
 
+import Link from "next/link";
+
 import FooterNav from "./components/FooterNav/FooterNav";
 import Navbar from "./components/Navbar/Navbar";
-import Link from "next/link";
 import CardVacina from "./components/CardVacina/CardVacina";
-import CardTipoVacina from "./components/Home/home";
-
-import { motion } from "framer-motion";
-import { useState, useEffect, userRef } from "react";
+import CardTipoVacina from "./components/CardTiposVacina/CardTiposVacina";
+import Carousel from "./components/Carousel/Carousel";
 
 import "./pagemodule.css";
-
-const imagens = [
-  { imagem: "/assets/img/banner/Frame1.png" },
-  { imagem: "/assets/img/banner/Frame2.png" },
-  { imagem: "/assets/img/banner/Frame3.png" },
-];
 
 const vacinas = [
   {
@@ -96,63 +89,65 @@ const vacinasParaRenderizar = vacinas.slice(0, numeroDeCards);
 const numeroDeCardsTipo = tiposVacina.length;
 const vacinasParaRenderizarTipo = tiposVacina.slice(0, numeroDeCardsTipo);
 
-const banner = imagens.length;
-const banners = imagens.slice(0, banner);
-
 export default function Home() {
   return (
     <div>
       <Navbar />
+
       <div className="conteudo">
-        <div className="App">
-          <motion.div className="carousel" whileTap={{ cursor: "grabbing" }}>
-            <motion.div className="inner" drag="x">
-              {banners.map((imagens) => (
-                <motion.div className="carrossel" key={imagens.imagem}>
-                  <img src={imagens.imagem} alt="1" />
-                </motion.div>
-              ))}
-            </motion.div>
-          </motion.div>
-        </div>
+        <section className="banner">
+          <Carousel />
+        </section>
+
         <h1>Tipos de Vacina</h1>
-        <div className="conteudo2">
-          <div className="vacinas-card2">
-            {vacinasParaRenderizarTipo.map((tiposVacina) => (
+        <section className="tipo-vacina">
+          {vacinasParaRenderizarTipo.map((tiposVacina) => (
+            <Link
+              href={`/detalhe?nome=${tiposVacina.nome}`}
+              className="vacina-link"
+              key={tiposVacina.index}
+            >
+              <CardTipoVacina
+                key={tiposVacina.nome}
+                nome={tiposVacina.nome}
+                imagem={tiposVacina.imagem}
+              />
+            </Link>
+          ))}
+        </section>
+
+        <section className="vacinas">
+          <div className="saiba">
+            <div className="saiba-mais">
+              <h1>Saiba Mais</h1>
+            </div>
+            <div className="ver-tudo">
+              <Link href={'/vacinas'}>
+                Ver Tudo
+              </Link>
+            </div>
+          </div>
+
+          <div className="card-saiba-mais">
+            {vacinasParaRenderizar.map((vacina) => (
               <Link
-                href={`/detalhe?nome=${tiposVacina.nome}`}
+                href={`/detalhe?nome=${vacina.nome}`}
                 className="vacina-link"
-                key={tiposVacina.index}
+                key={vacina.index}
               >
-                <CardTipoVacina
-                  key={tiposVacina.nome}
-                  nome={tiposVacina.nome}
-                  imagem={tiposVacina.imagem}
+                <CardVacina
+                  key={vacina.nome}
+                  nome={vacina.nome}
+                  descricao={vacina.descricao}
+                  imagem={vacina.imagem}
                 />
               </Link>
             ))}
           </div>
-        </div>
-        <h1>Saiba Mais</h1>
-        <div className="vacinas-card">
-          {vacinasParaRenderizar.map((vacina) => (
-            <Link
-              href={`/detalhe?nome=${vacina.nome}`}
-              className="vacina-link"
-              key={vacina.index}
-            >
-              <CardVacina
-                key={vacina.nome}
-                nome={vacina.nome}
-                descricao={vacina.descricao}
-                imagem={vacina.imagem}
-              />
-            </Link>
-          ))}
-        </div>
-        <h3>Ver Tudo</h3>
+        </section>
       </div>
-      <FooterNav nome="Home" />
+
+      <FooterNav />
     </div>
   );
 }

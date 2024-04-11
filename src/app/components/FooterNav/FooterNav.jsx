@@ -17,7 +17,7 @@ const FooterNav = () => {
 				<Link href="/vacinas">
 					<i className={ pathname === "/vacinas" ? "icon-droplet active" : "icon-droplet" }></i>
 				</Link>
-				<Link href="#" >
+				<Link href="/localizacao" >
 					<i className={ pathname === "#" ? "icon-map active" : "icon-map" }></i>
 				</Link>
 				<Link href="/minha-carteira" >

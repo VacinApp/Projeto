@@ -7,17 +7,8 @@ export default function Localizacao() {
   return (
     <div>
       <Navbar />
-      <div>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
-        <p>oioioi</p>
+      <div className="conteudo">
+        
       </div>
       <FooterNav nome="Localização" />
     </div>

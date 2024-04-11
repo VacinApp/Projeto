@@ -1,4 +1,4 @@
-import "./home.css";
+import "./cardtiposvacina.css";
 
 const CardTiposVacina = ({ nome, imagem }) => {
   return (
@@ -6,9 +6,10 @@ const CardTiposVacina = ({ nome, imagem }) => {
       <img src={imagem} />
 
       <div className="nome">
-        <h2>{nome}</h2>
+        <p>{nome}</p>
       </div>
     </article>
   );
-};
+}
+
 export default CardTiposVacina;

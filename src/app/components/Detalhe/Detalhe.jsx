@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import './detalhe.css';
 
 const vacina = {
@@ -13,7 +15,15 @@ const Detalhe = () => {
       <div className="detalheConteudo">
         <h1>{vacina.nome}</h1>
         <p>{vacina.descricao}</p>
-        <button className='detalheBotao'>Encontrar posto</button>
+
+        <div className="botao">
+          <Link
+            href={'/localizacao'}
+            className="detalheBotao"
+          >
+            Encontrar posto
+          </Link>
+        </div>      
       </div>
     </section>
   );
