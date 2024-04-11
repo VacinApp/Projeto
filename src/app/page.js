@@ -13,43 +13,37 @@ import "./pagemodule.css";
 const vacinas = [
   {
     nome: "BCG",
-    descricao:
-      "A vacina contra a tuberculose é o BCG (bacilo de Calmette & Guérin) liofilizado, obtido por atenuação do Mycobacterium bovis, apresentada em ampolas com múltiplas doses.",
+    descricao: "A vacina contra a tuberculose é o BCG (bacilo de Calmette & Guérin) liofilizado, obtido por atenuação do Mycobacterium bovis, apresentada em ampolas com múltiplas doses.",
     imagem: "/assets/img/vacinas/bcg.png",
     index: 0,
   },
   {
     nome: "Hepatite A",
-    descricao:
-      "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
+    descricao: "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
     imagem: "/assets/img/vacinas/hepatiteA.png",
     index: 1,
   },
   {
     nome: "Hepatite B",
-    descricao:
-      "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
+    descricao: "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
     imagem: "/assets/img/vacinas/hepatiteB.png",
     index: 2,
   },
   {
     nome: "Penta (DTP/Hib/Hep. B)",
-    descricao:
-      "A vacina BCG (Bacilo de Calmette e Guérin) é indicada para prevenir as...",
+    descricao: "A vacina BCG (Bacilo de Calmette e Guérin) é indicada para prevenir as...",
     imagem: "/assets/img/vacinas/penta.png",
     index: 3,
   },
   {
     nome: "Pneumocócica 10 valente",
-    descricao:
-      "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
+    descricao: "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
     imagem: "/assets/img/vacinas/pneumococica.png",
     index: 4,
   },
   {
     nome: "Vacina Inativada Poliomielite",
-    descricao:
-      "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
+    descricao: "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
     imagem: "/assets/img/vacinas/poliomielite.png",
     index: 5,
   },
