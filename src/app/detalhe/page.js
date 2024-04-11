@@ -3,13 +3,12 @@ import FooterNav from "../components/FooterNav/FooterNav";
 import Navbar from "../components/Navbar/Navbar";
 
 export default function PagDetalhe() {
-
-    return (
-        <div>
-            <Navbar />
-            <Detalhe />
-            <FooterNav />
-        </div >
-    )
+	return (
+		<div>
+			<Navbar />
+			<Detalhe />
+			<FooterNav />
+		</div >
+	);
 }
 

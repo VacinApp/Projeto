@@ -1,5 +1,5 @@
 .minhasVacinas {
-  margin: 6.5rem 2.5rem 2.5rem 2.25rem;
+  margin: 6.5rem 3rem;
 }
 
 .minhasVacinas h1 {
@@ -13,4 +13,19 @@
 
 .linkAdicionar {
   align-self: flex-end;
+  text-decoration: none;
+  background-color: var(--azul);
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
 }
+
+.linkAdicionar:hover {
+  background-color: var(--azul-25);
+}
+
+.icon-plus {
+  color: var(--branco);
+  font-size: 1.5rem;
+}
+

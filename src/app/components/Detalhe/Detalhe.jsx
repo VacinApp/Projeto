@@ -9,12 +9,12 @@ const vacina = {
 const Detalhe = () => {
   return (
     <section className="detalheContainer">
-        <img className='detalheImg' src={vacina.imagem} alt={vacina.nome} />
-        <div className="detalheConteudo">
-          <h2>{vacina.nome}</h2>
-          <p>{vacina.descricao}</p>
-          <button className='detalheBotao'>Encontrar posto</button>
-        </div>
+      <img className='detalheImg' src={vacina.imagem} alt={vacina.nome} />
+      <div className="detalheConteudo">
+        <h1>{vacina.nome}</h1>
+        <p>{vacina.descricao}</p>
+        <button className='detalheBotao'>Encontrar posto</button>
+      </div>
     </section>
   );
 }

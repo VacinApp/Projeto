@@ -77,6 +77,10 @@ select:focus {
   outline: 0;
 }
 
+textarea {
+  resize: none;
+}
+
 /* Media Screen */
 /* extra large devices: 768 > */
 @media screen and (min-width: 768px) {

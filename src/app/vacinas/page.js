@@ -127,8 +127,17 @@ export default function Vacinas() {
 			<div className="conteudo">
 				<h1>Vacinas Disponíveis</h1>
 				<div className="vacinas-card">
-					{vacinasParaRenderizar.map((vacina) => (<Link href={`/detalhe?nome=${vacina.nome}`} className='vacina-link' key={vacina.index} ><CardVacina key={vacina.nome} nome={vacina.nome}
-						descricao={vacina.descricao} imagem={vacina.imagem} /></Link>))}
+					{vacinasParaRenderizar.map((vacina) => (
+						<Link href={`/detalhe?nome=${vacina.nome}`} 
+							className='vacina-link' 
+							key={vacina.index} >
+								<CardVacina key={vacina.nome} 
+									nome={vacina.nome}
+									descricao={vacina.descricao} 
+									imagem={vacina.imagem} 
+								/>
+						</Link>
+					))}
 				</div>
 			</div>
 			<FooterNav />

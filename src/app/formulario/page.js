@@ -23,10 +23,12 @@ export default function PagFormulario() {
 
 	return (
 		<div>
-			<Navbar />	
+			<Navbar />
+				
 			<div className="conteudo">
 				<Formulario vacinas={vacinas} doses={doses} aoCadastrar={vacina => setMinhasVacinas([...minhasVacinas, vacina])} />
 			</div>
+
 			<FooterNav />
 		</div>
 	);

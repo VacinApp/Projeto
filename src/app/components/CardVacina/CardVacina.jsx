@@ -7,7 +7,7 @@ const CardVacina = ({ nome, descricao, imagem }) => {
 			<img src={imagem} />
 
 			<div className='descricao'>
-				<h2>{nome}</h2>
+				<h1>{nome}</h1>
 				<p>{descricao}</p>
 			</div>
 		</article>

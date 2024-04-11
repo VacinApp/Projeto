@@ -22,14 +22,15 @@
   gap: 0.5rem;
 }
 
-.cardVacina h2 {
+.cardVacina h1 {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1rem !important;
   overflow: hidden; 
   text-overflow: ellipsis; 
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical; 
+  margin: 0 !important;
 }
 
 .cardVacina p {

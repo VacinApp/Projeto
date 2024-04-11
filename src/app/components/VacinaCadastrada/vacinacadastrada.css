@@ -1,6 +1,5 @@
 .containerVacinaCadastrada {
-  border-top: 1px solid var(--cinza);
-  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--cinza-claro);
 }
 
 .vacinaCadastradaCabecalho {
@@ -10,8 +9,17 @@
   align-items: flex-start;
 }
 
+.vacinaCadastradaCabecalho h1 {
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical; 
+}
+
 .conteudoCarteira {
   display: flex;
+  margin-bottom: 1.1rem;
   gap: 1rem;
 }
 
@@ -40,9 +48,38 @@
   background-color: white;
 }
 
+.carteiraAcoes {
+  margin-block: 0.5rem;
+}
+
+.icon-edit,
+.icon-trash {
+  font-size: 1rem;
+}
+
+.icon-chevron-up,
+.icon-chevron-down {
+  font-size: 1.5rem;
+}
+
+.icon-edit,
+.icon-chevron-up,
+.icon-chevron-down {
+  color: var(--cinza-claro);
+}
+
+.icon-trash {
+  color: #F41C1C;
+}
+
 @media (min-width: 1023px) {
   .carteiraConteudoPrincipal{
     display: flex;
     justify-content: space-between;
+  }
+  
+  .icon-edit,
+  .icon-trash {
+    font-size: 1.5rem;
   }
 }
