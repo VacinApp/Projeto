@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import './vacinacadastrada.css'
 
-const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs }) => {
+const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, aoDeletar}) => {
 
   const [carteiraAtiva, setCarteiraAtiva] = useState(false);
 
@@ -38,7 +38,7 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs }) => {
 
         <div className='carteiraAcoes'>
           <div className='icon-edit'></div>
-          <div className='icon-trash'></div>
+          <div className='icon-trash' onClick={() => aoDeletar(id)}></div>
         </div>
       </div>
     </section>
