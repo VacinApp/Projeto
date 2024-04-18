@@ -84,7 +84,6 @@ export default function MinhaCarteira() {
 
   function deletarVacina(id) {
     setMinhasVacinas(minhasVacinas.filter(vacina => vacina.id !== id))
-    console.log(minhasVacinas)
   }
 
   return (

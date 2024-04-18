@@ -16,7 +16,7 @@
   margin-bottom: 2rem;
 }
 
-.card-saiba-mais {
+.cardSaibaMais {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -44,12 +44,12 @@
   color: var(--cinza);
 }
 
-.vacina-link {
+.vacinaLink {
   text-decoration: none;
   color: var(--preto);
 }
 
-.tipo-vacina {
+.tipoVacina {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -63,7 +63,7 @@
     font-size: 1.5rem;
   }
 
-  .card-saiba-mais {
+  .cardSaibaMais {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -71,7 +71,7 @@
 
 /* large devices: 1023 > */
 @media screen and (min-width: 1024px) {
-  .card-saiba-mais {
+  .cardSaibaMais {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

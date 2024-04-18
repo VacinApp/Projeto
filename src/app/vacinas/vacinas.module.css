@@ -9,13 +9,13 @@
   text-align: left;
   width: 100%;
 }
-.vacinas-card {
+.vacinasCard {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 16px 16px;
 }
-.vacina-link {
+.vacinaLink {
   text-decoration: none;
   color: var(--preto);
 }
@@ -26,7 +26,7 @@
     font-size: 1.5rem;
   }
 
-  .vacinas-card {
+  .vacinasCard {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -34,7 +34,7 @@
 
 /* large devices: 1023 > */
 @media screen and (min-width: 1024px) {
-  .vacinas-card {
+  .vacinasCard {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

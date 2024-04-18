@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
 import CardVacina from "../components/CardVacina/CardVacina";
 
-import "./vacinas.css";
+import styles from "./vacinas.module.css";
 
 const vacinas = [
   {
@@ -135,13 +135,13 @@ export default function Vacinas() {
   return (
     <div>
       <Navbar />
-      <div className="conteudo">
+      <div className={`${styles.conteudo} conteudo`}>
         <h1>Vacinas Disponíveis</h1>
-        <div className="vacinas-card">
+        <div className={styles.vacinasCard}>
           {vacinasParaRenderizar.map((vacina) => (
             <Link
               href={`/detalhe?nome=${vacina.nome}`}
-              className="vacina-link"
+              className={styles.vacinaLink}
               key={vacina.index}
             >
               <CardVacina

@@ -8,7 +8,7 @@ import CardVacina from "./components/CardVacina/CardVacina";
 import CardTipoVacina from "./components/CardTiposVacina/CardTiposVacina";
 import Carousel from "./components/Carousel/Carousel";
 
-import "./pagemodule.css";
+import styles from "./page.module.css";
 
 const vacinas = [
   {
@@ -88,17 +88,17 @@ export default function Home() {
     <div>
       <Navbar />
 
-      <div className="conteudo">
-        <section className="banner">
+      <div className={`${styles.conteudo} conteudo`}>
+        <section className={styles.banner}>
           <Carousel />
         </section>
 
         <h1>Tipos de Vacina</h1>
-        <section className="tipo-vacina">
+        <section className={styles.tipoVacina}>
           {vacinasParaRenderizarTipo.map((tiposVacina) => (
             <Link
               href={`/detalhe?nome=${tiposVacina.nome}`}
-              className="vacina-link"
+              className={styles.vacinaLink}
               key={tiposVacina.index}
             >
               <CardTipoVacina
@@ -110,23 +110,23 @@ export default function Home() {
           ))}
         </section>
 
-        <section className="vacinas">
-          <div className="saiba">
-            <div className="saiba-mais">
+        <section className={styles.vacinas}>
+          <div className={styles.saiba}>
+            <div className={styles.saibaMais}>
               <h1>Saiba Mais</h1>
             </div>
-            <div className="ver-tudo">
+            <div className={styles.verTudo}>
               <Link href={'/vacinas'}>
                 Ver Tudo
               </Link>
             </div>
           </div>
 
-          <div className="card-saiba-mais">
+          <div className={styles.cardSaibaMais}>
             {vacinasParaRenderizar.map((vacina) => (
               <Link
                 href={`/detalhe?nome=${vacina.nome}`}
-                className="vacina-link"
+                className={styles.vacinaLink}
                 key={vacina.index}
               >
                 <CardVacina
