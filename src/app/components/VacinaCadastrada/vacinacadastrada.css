@@ -72,6 +72,14 @@
   color: #F41C1C;
 }
 
+.temAqui{
+  display: none;
+}
+.nadaAqui {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 1023px) {
   .carteiraConteudoPrincipal{
     display: flex;
@@ -81,5 +89,6 @@
   .icon-edit,
   .icon-trash {
     font-size: 1.5rem;
+    cursor: pointer;
   }
 }
