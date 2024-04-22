@@ -24,8 +24,16 @@
   background-color: var(--azul-25);
 }
 
-.icon-plus {
+.iconPlus {
   color: var(--branco);
   font-size: 1.5rem;
+}
+
+.temAqui{
+  display: none;
+}
+.nadaAqui {
+  display: flex;
+  justify-content: center;
 }
 

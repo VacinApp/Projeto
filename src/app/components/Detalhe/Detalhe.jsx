@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import './detalhe.css';
+import styles from'./detalhe.module.css';
 
 const vacina = {
   nome: 'BCG',
@@ -10,16 +10,16 @@ const vacina = {
 
 const Detalhe = () => {
   return (
-    <section className="detalheContainer">
-      <img className='detalheImg' src={vacina.imagem} alt={vacina.nome} />
-      <div className="detalheConteudo">
+    <section className={styles.detalheContainer}>
+      <img className={styles.detalheImg} src={vacina.imagem} alt={vacina.nome} />
+      <div className={styles.detalheConteudo}>
         <h1>{vacina.nome}</h1>
         <p>{vacina.descricao}</p>
 
-        <div className="botao">
+        <div className={styles.botao}>
           <Link
             href={'/localizacao'}
-            className="detalheBotao"
+            className={styles.detalheBotao}
           >
             Encontrar posto
           </Link>

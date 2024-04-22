@@ -10,11 +10,11 @@
 }
 
 .vacinaCadastradaCabecalho h1 {
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical; 
+  -webkit-box-orient: vertical;
 }
 
 .conteudoCarteira {
@@ -69,23 +69,15 @@
 }
 
 .icon-trash {
-  color: #F41C1C;
-}
-
-.temAqui{
-  display: none;
-}
-.nadaAqui {
-  display: flex;
-  justify-content: center;
+  color: #f41c1c;
 }
 
 @media (min-width: 1023px) {
-  .carteiraConteudoPrincipal{
+  .carteiraConteudoPrincipal {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .icon-edit,
   .icon-trash {
     font-size: 1.5rem;
