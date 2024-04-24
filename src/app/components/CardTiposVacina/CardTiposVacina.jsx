@@ -1,11 +1,11 @@
-import "./cardtiposvacina.css";
+import styles from './cardtiposvacina.module.css';
 
 const CardTiposVacina = ({ nome, imagem }) => {
   return (
-    <article className="cardTiposVacina">
+    <article className={styles.cardTiposVacina}>
       <img src={imagem} />
 
-      <div className="nome">
+      <div>
         <p>{nome}</p>
       </div>
     </article>
