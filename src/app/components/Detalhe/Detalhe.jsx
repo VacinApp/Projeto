@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import styles from'./detalhe.module.css';
-import vacs from 'O:/repositorio/Projeto/src/app/json/vacs.json'
+import vacs from '../../json/vacs.json'
 
 
 const Detalhe = ({id}) => {
