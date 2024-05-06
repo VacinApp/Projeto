@@ -1,21 +1,30 @@
+"use client"
 import Link from "next/link";
-
 import styles from'./detalhe.module.css';
-import vacs from '../../json/vacs.json'
+import { useEffect, useState } from "react";
+import { getCategoria, getVacinaByNome, getVacinas } from "@/util/api";
+
+const Detalhe = ({nome}) => {
+  
+  const [vacina, setVacina] = useState(null);
+  useEffect(() => {
+    getVacinaByNome(nome)
+      .then((data) => setVacina(data), [])
+  })
+
+  const [categoria, setCategorias] = useState(null);
+  useEffect(() => {
+    getCategoria()
+      .then((data) => setCategorias(data), [])
+  })
 
 
-const Detalhe = ({id}) => {
-  const vacina = {
-    nome: vacs[id].nome,
-    descricao: vacs[id].descricao,
-    imagem: vacs[id].imagem,
-  }
-  return (
+  return (vacina ? (
     <section className={styles.detalheContainer}>
-      <img className={styles.detalheImg} src={vacina.imagem} alt={vacina.nome} />
+      <img className={styles.detalheImg} src={vacina[0].imagem} alt={vacina[0].nome} />
       <div className={styles.detalheConteudo}>
-        <h1>{vacina.nome}</h1>
-        <p>{vacina.descricao}</p>
+        <h1>{vacina[0].nome}</h1>
+        <p>{vacina[0].descricao}</p>
         <div className={styles.botao}>
           <Link
             href={'/localizacao'}
@@ -25,7 +34,7 @@ const Detalhe = ({id}) => {
           </Link>
         </div>      
       </div>
-    </section>
+    </section>): (<p>Loading</p>)
   );
 }
 

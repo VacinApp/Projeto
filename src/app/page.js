@@ -7,47 +7,28 @@ import Navbar from "./components/Navbar/Navbar";
 import CardVacina from "./components/CardVacina/CardVacina";
 import CardTipoVacina from "./components/CardTiposVacina/CardTiposVacina";
 import Carousel from "./components/Carousel/Carousel";
-
 import styles from "./page.module.css";
-import vacinas from './json/vacs.json'
+import { useEffect, useState } from "react";
+import { getCategoria, getVacinas } from "@/util/api";
 
 
 
-const tiposVacina = [
-  {
-    nome: "Intradérmica",
-    imagem: "/assets/img/vacinas/intradermica.png",
-    index: 0,
-  },
-  {
-    nome: "Intramuscular (Vírus Inativo)",
-    imagem: "/assets/img/vacinas/intramuscular_virus.png",
-    index: 1,
-  },
-  {
-    nome: "Oral",
-    imagem: "/assets/img/vacinas/oral.png",
-    index: 2,
-  },
-  {
-    nome: "Subcutânea",
-    imagem: "/assets/img/vacinas/subcutanea.png",
-    index: 3,
-  },
-  {
-    nome: "Intramuscular (Bactéria Inativo)",
-    imagem: "/assets/img/vacinas/intramuscular_bacteria.png",
-    index: 4,
-  },
-];
-
-const numeroDeCards = vacinas.length;
-const vacinasParaRenderizar = vacinas.slice(0, numeroDeCards);
-
-const numeroDeCardsTipo = tiposVacina.length;
-const vacinasParaRenderizarTipo = tiposVacina.slice(0, numeroDeCardsTipo);
 
 export default function Home() {
+
+  const [vacinas, setVacinas] = useState(null);
+  useEffect(() => {
+    getVacinas()
+      .then((data) => setVacinas(data), [])
+  })
+
+  const [categorias, setCategorias] = useState(null);
+  useEffect(() => {
+    getCategoria()
+      .then((data) => setCategorias(data), [])
+  })
+
+
   return (
     <div>
       <Navbar />
@@ -59,11 +40,11 @@ export default function Home() {
 
         <h1>Tipos de Vacina</h1>
         <section className={styles.tipoVacina}>
-          {vacinasParaRenderizarTipo.map((tiposVacina) => (
+          {categorias ? (categorias.map((tiposVacina) => (
             <Link
-              href={`/detalhe?nome=${tiposVacina.nome}`}
+              href={`/detalhe/tipo?nome=${tiposVacina.nome}`}
               className={styles.vacinaLink}
-              key={tiposVacina.index}
+              key={tiposVacina.nome}
             >
               <CardTipoVacina
                 key={tiposVacina.nome}
@@ -71,7 +52,7 @@ export default function Home() {
                 imagem={tiposVacina.imagem}
               />
             </Link>
-          ))}
+          ))) : (<p>Loading</p>)}
         </section>
 
         <section className={styles.vacinas}>
@@ -87,9 +68,9 @@ export default function Home() {
           </div>
 
           <div className={styles.cardSaibaMais}>
-            {vacinasParaRenderizar.map((vacina) => (
+            {vacinas ? (vacinas.slice(vacinas.length - 6, vacinas.length).map((vacina) => (
               <Link
-                href={`/detalhe?id=${vacina.id}`}
+                href={`/detalhe?nome=${vacina.nome}`}
                 className={styles.vacinaLink}
                 key={vacina.id}
               >
@@ -100,7 +81,7 @@ export default function Home() {
                   imagem={vacina.imagem}
                 />
               </Link>
-            ))}
+            ))) : (<p>Loading</p>)}
           </div>
         </section>
       </div>
