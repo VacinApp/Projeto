@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.detalheContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detalheContainer img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.detalheConteudo {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.8rem 1.25rem;
+  position: relative;
+  bottom: 2rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-color: var(--branco);
+}
+
+.botao {
+  justify-content: center;
+  display: flex;
+}
+
+.detalheBotao {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.detalheBotao:hover {
+  background-color: var(--azul-25);
+}
+
+@media (min-width: 1023px) {
+  .detalheContainer {
+    flex-direction: row;
+  }
+
+  .detalheContainer img {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .detalheConteudo {
+    padding-inline: 3rem;
+    margin-bottom: 0;
+  }
+}
