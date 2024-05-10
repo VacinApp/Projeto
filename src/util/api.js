@@ -1,3 +1,19 @@
+
+// ------------ CREATE -----------
+export async function addVacCarteira(vac) {
+  try {
+    const response = await fetch("http://localhost:8000/carteira",
+      {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(vac)
+      });
+    return response.status;
+  } catch (error) { console.log("ERROR: " + error); }
+}
+
+
+// ------------ READ ------------
 export async function getVacinas() {
   try {
     const response = await fetch("http://localhost:8000/vacinas");
@@ -45,5 +61,36 @@ export async function getCarteira() {
     return data;
   } catch (error) {
     console.log("ERROR: " + error);
+  }
+}
+
+// ---------- UPDATE ------------
+export async function updateVacCarteira(vac) {
+  try {
+    const response = await fetch("http://localhost:8000/carteira/" + vac.id,
+      {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(vac)
+      }
+    );
+    return response.status;
+  } catch (error) {
+    console.log("ERROR: " + error)
+  }
+}
+
+
+// ---------- DELETE ------------
+export async function deleteVacCarteira(id) {
+  try {
+    const response = await fetch("http://localhost:8000/carteira/" + id,
+      {
+        method: "DELETE",
+      }
+    );
+    return response.status;
+  } catch (error) {
+    console.log("ERROR: " + error)
   }
 }
