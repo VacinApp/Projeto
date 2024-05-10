@@ -12,16 +12,14 @@ import './minhacarteira.css';
 
 export default function MinhaCarteira() {
 
-  function deletarVacina(id) {
-    setCarteira(carteira.filter(vacina => vacina.id !== id))
-  }
   const [carteira, setCarteira] = useState(null);
   useEffect(() => {
     getCarteira()
       .then((data) => setCarteira(data), [])
   })
 
-  console.log(carteira)
+  const tamanhoCarteira = carteira ? carteira.length : null
+
   return (
 
     < div >
@@ -42,11 +40,10 @@ export default function MinhaCarteira() {
             lab={dados.lab}
             obs={dados.obs}
             id={dados.id}
-            key={dados.key}
-            aoDeletar={deletarVacina}
+            key={dados.id}
           />
         ))) : (<p>Loading</p>)}
-        <div className={carteira ? 'temAqui' : 'nadaAqui'}>
+        <div className={tamanhoCarteira !== 0 ? 'temAqui' : 'nadaAqui'}>
           <p>Ops! Parece que você ainda não cadastrou nenhuma vacina nesta página.</p>
         </div>
       </section>

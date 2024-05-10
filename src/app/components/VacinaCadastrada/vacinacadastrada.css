@@ -72,6 +72,10 @@
   color: #f41c1c;
 }
 
+.escondido{
+  display: none;
+}
+
 @media (min-width: 1023px) {
   .carteiraConteudoPrincipal {
     display: flex;
