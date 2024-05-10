@@ -4,109 +4,109 @@
       "nome": "BCG",
       "descricao": "A vacina contra a tuberculose é o BCG (bacilo de Calmette & Guérin) liofilizado, obtido por atenuação do Mycobacterium bovis, apresentada em ampolas com múltiplas doses.",
       "imagem": "/assets/img/vacinas/bcg.png",
-      "id": 0
+      "id": "0"
     },
     {
       "nome": "Hepatite A",
       "descricao": "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
       "imagem": "/assets/img/vacinas/hepatiteA.png",
-      "id": 1
+      "id": "1"
     },
     {
       "nome": "Hepatite B",
       "descricao": "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
       "imagem": "/assets/img/vacinas/hepatiteB.png",
-      "id": 2
+      "id": "2"
     },
     {
       "nome": "Penta (DTP/Hib/Hep. B)",
       "descricao": "A vacina BCG (Bacilo de Calmette e Guérin) é indicada para prevenir as...",
       "imagem": "/assets/img/vacinas/penta.png",
-      "id": 3
+      "id": "3"
     },
     {
       "nome": "Pneumocócica 10 valente",
       "descricao": "A vacina hepatite A é indicada para todas as pessoas a partir de 12 meses...",
       "imagem": "/assets/img/vacinas/pneumococica.png",
-      "id": 4
+      "id": "4"
     },
     {
       "nome": "Vacina Inativada Poliomielite",
       "descricao": "A vacina Hepatite B (recombinante) é indicada para esquema de vacinação...",
       "imagem": "/assets/img/vacinas/poliomielite.png",
-      "id": 5
+      "id": "5"
     },
     {
       "nome": "Vacina Oral Poliomielite (VOP)",
       "descricao": "A vacina contra a Poliomielite é indicada para prevenir a...",
       "imagem": "/assets/img/vacinas/poliomieliteOral.png",
-      "id": 6
+      "id": "6"
     },
     {
       "nome": "Vacina Rotavírus Humano (VRH)",
       "descricao": "Um imunizante que previne contra o rotavírus humano...",
       "imagem": "/assets/img/vacinas/rotavirus.png",
-      "id": 7
+      "id": "7"
     },
     {
       "nome": "Meningocócica C (conjugada)",
       "descricao": "A vacina meningocócica C (conjugada) é usada para...",
       "imagem": "/assets/img/vacinas/menigococicaC.png",
-      "id": 8
+      "id": "8"
     },
     {
       "nome": "Febre amarela",
       "descricao": "A vacina contra a febre amarela é segura e considerada a medida...",
       "imagem": "/assets/img/vacinas/febreAmarela.png",
-      "id": 9
+      "id": "9"
     },
     {
       "nome": "Tríplice viral",
       "descricao": "A tríplice viral é uma vacina atenuada, que contém vírus...",
       "imagem": "/assets/img/vacinas/tripliceViral.png",
-      "id": 10
+      "id": "10"
     },
     {
       "nome": "Tetraviral",
       "descricao": "Vacina atenuada, contendo vírus vivos “enfraquecidos” do saram...",
       "imagem": "/assets/img/vacinas/tetraviral.png",
-      "id": 11
+      "id": "11"
     },
     {
       "nome": "DTP (tríplice bacteriana)",
       "descricao": "A vacina tríplice bacteriana (DTP) é indicada para prevenir...",
       "imagem": "/assets/img/vacinas/dtp.png",
-      "id": 12
+      "id": "12"
     },
     {
       "nome": "Varicela",
       "descricao": "A primeira dose deve ser tomada aos 12 meses de idade e a segun...",
       "imagem": "/assets/img/vacinas/varicela.png",
-      "id": 13
+      "id": "13"
     },
     {
       "nome": "HPV quadrivalente",
       "descricao": "Ela trabalha na prevenção de lesões genitais pré-cancerosas...",
       "imagem": "/assets/img/vacinas/hpv.png",
-      "id": 14
+      "id": "14"
     },
     {
       "nome": "dT (dupla adulto)",
       "descricao": "A vacina adsorvida difteria e tétano (dT - dupla bacteriana...",
       "imagem": "/assets/img/vacinas/dt.png",
-      "id": 15
+      "id": "15"
     },
     {
       "nome": "dTpa (DTP adulto)",
       "descricao": "A vacina dTpa Adulto é indicada para reforço das vacinas DTPa...",
       "imagem": "/assets/img/vacinas/dtp.png",
-      "id": 16
+      "id": "16"
     },
     {
       "nome": "Menigocócica ACWY",
       "descricao": "A vacina meningocócica ACWY (conjugada), também conhecida...",
       "imagem": "/assets/img/vacinas/menigococicaACWY.png",
-      "id": 17
+      "id": "17"
     }
   ],
   "categoria": [
@@ -114,93 +114,73 @@
       "nome": "Intradérmica",
       "descricao": "Vacinas intradérmicas são administradas na camada superficial da pele. Elas geralmente contêm vírus inativados, os quais estimulam uma resposta imunológica sem causar a doença. Essa rota de administração pode ser usada para alcançar uma resposta imunológica eficaz com doses menores de antígenos.",
       "imagem": "/assets/img/vacinas/intradermica.png",
-      "id": 0
+      "id": "0"
     },
     {
       "nome": "Intramuscular (Vírus Inativo)",
-      "descricao":"Essas vacinas são injetadas no músculo e contêm vírus inativados para estimular uma resposta imunológica protetora. Ao serem administradas dessa forma, as vacinas intramusculares garantem uma absorção eficiente do antígeno, desencadeando uma resposta imunológica contra doenças virais específicas.",
+      "descricao": "Essas vacinas são injetadas no músculo e contêm vírus inativados para estimular uma resposta imunológica protetora. Ao serem administradas dessa forma, as vacinas intramusculares garantem uma absorção eficiente do antígeno, desencadeando uma resposta imunológica contra doenças virais específicas.",
       "imagem": "/assets/img/vacinas/intramuscular_virus.png",
-      "id": 1
+      "id": "1"
     },
     {
       "nome": "Oral",
       "descricao": "Vacinas orais são administradas pela boca, geralmente em forma líquida ou em cápsulas. Elas contêm agentes imunizantes, como vírus ou bactérias atenuadas ou inativadas, que estimulam uma resposta imunológica no trato gastrointestinal. Este tipo de vacina é útil para proteger contra doenças transmitidas por via oral, oferecendo uma imunização eficaz contra patógenos como vírus e bactérias.",
       "imagem": "/assets/img/vacinas/oral.png",
-      "id": 2
+      "id": "2"
     },
     {
       "nome": "Subcutânea",
-      "descricao":"Vacinas subcutâneas são administradas abaixo da pele, mas acima do músculo. Elas podem conter vírus inativados, bactérias inativadas ou seus componentes para estimular uma resposta imunológica. Esta rota de administração é escolhida dependendo da vacina e do alvo da imunização, oferecendo uma proteção eficaz contra uma variedade de doenças.",
+      "descricao": "Vacinas subcutâneas são administradas abaixo da pele, mas acima do músculo. Elas podem conter vírus inativados, bactérias inativadas ou seus componentes para estimular uma resposta imunológica. Esta rota de administração é escolhida dependendo da vacina e do alvo da imunização, oferecendo uma proteção eficaz contra uma variedade de doenças.",
       "imagem": "/assets/img/vacinas/subcutanea.png",
-      "id": 3
+      "id": "3"
     },
     {
       "nome": "Intramuscular (Bactéria Inativo)",
-      "descricao":"Esta categoria de vacina é administrada diretamente no músculo. Geralmente, contém bactérias inativadas ou seus componentes para desencadear uma resposta imunológica protetora. Ao serem injetadas no músculo, as vacinas intramusculares permitem uma absorção eficiente do antígeno pelo sistema imunológico, promovendo uma resposta imune robusta contra doenças bacterianas.",
+      "descricao": "Esta categoria de vacina é administrada diretamente no músculo. Geralmente, contém bactérias inativadas ou seus componentes para desencadear uma resposta imunológica protetora. Ao serem injetadas no músculo, as vacinas intramusculares permitem uma absorção eficiente do antígeno pelo sistema imunológico, promovendo uma resposta imune robusta contra doenças bacterianas.",
       "imagem": "/assets/img/vacinas/intramuscular_bacteria.png",
-      "id": 4
+      "id": "4"
     }
   ],
   "carteira": [
     {
-      "nome": "Influenza H1N1",
-      "dose": "1ª Dose",
-      "validade": "24/10/2024",
-      "data": "12/08/2023",
-      "lote": "H06",
-      "lab": "Abbot",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 0
-    },
-    {
+      "id": "1",
       "nome": "Hepatite A",
       "dose": "1ª Dose",
       "validade": "24/10/2024",
       "data": "12/08/2023",
       "lote": "H06",
       "lab": "Fiocruz",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 1
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
     },
     {
+      "id": "2",
       "nome": "Penta (DTP/Hib/Hep. B)",
       "dose": "1ª Dose",
       "validade": "24/10/2024",
       "data": "12/08/2023",
       "lote": "H06",
       "lab": "Pfizer",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 2
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
     },
     {
+      "id": "3",
       "nome": "Influenza H1N1",
       "dose": "1ª Dose",
       "validade": "24/10/2024",
       "data": "12/08/2023",
       "lote": "H06",
       "lab": "Abbot",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 3
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
     },
     {
-      "nome": "Hepatite A ",
+      "id": "ab30963f-6bce-4a8e-8aaf-c1884113183d",
+      "nome": "Febre amarela",
       "dose": "1ª Dose",
-      "validade": "24/10/2024",
-      "data": "12/08/2023",
-      "lote": "H06",
+      "data": "2024-05-29",
+      "validade": "",
+      "lote": "2024-05-07",
       "lab": "Fiocruz",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 4
-    },
-    {
-      "nome": "Penta (DTP/Hib/Hep. B)",
-      "dose": "1ª Dose",
-      "validade": "24/10/2024",
-      "data": "12/08/2023",
-      "lote": "H06",
-      "lab": "Pfizer",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe.",
-      "id": 5
+      "obs": "Febre amarela não tem validade."
     }
   ]
 }
