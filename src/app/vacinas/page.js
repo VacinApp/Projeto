@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
-import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
 import CardVacina from "../components/CardVacina/CardVacina";
 import styles from "./vacinas.module.css";
 import { useEffect, useState } from "react";
 import { getVacinas } from "@/util/api";
+import Menu from "../components/Menu/menu";
 
 
 export default function Vacinas() {
@@ -17,7 +17,7 @@ export default function Vacinas() {
 
   return (
     <div>
-      <Navbar />
+      <Menu />
       <div className={`${styles.conteudo} conteudo`}>
         <h1>Vacinas Disponíveis</h1>
         <div className={styles.vacinasCard}>

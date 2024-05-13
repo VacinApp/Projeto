@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import Link from "next/link";
+import MenuItem from "../MenuItem/menuItem";
 
 import "./navbar.css";
 
@@ -11,36 +11,12 @@ const Navbar = () => {
     <div className="container">
       <img src="/assets/img/logo.png" className="titulo" />
       <nav className="container__nav">
-        <Link
-          href="/"
-          className={pathname === "/" ? "nav__links ativa" : "nav__links"}
-        >
-          Home
-        </Link>
-        <Link
-          href="/localizacao"
-          className={
-            pathname === "/localizacao" ? "nav__links ativa" : "nav__links"
-          }
-        >
-          Localização
-        </Link>
-        <Link
-          href="/vacinas"
-          className={
-            pathname === "/vacinas" ? "nav__links ativa" : "nav__links"
-          }
-        >
-          Vacinas
-        </Link>
-        <Link
-          href="/minha-carteira"
-          className={
-            pathname === "/minha-carteira" ? "nav__links ativa" : "nav__links"
-          }
-        >
-          Minha Carteira
-        </Link>
+        <ul>
+          <li> <MenuItem text="Home" route="/" className={pathname === "/" ? "nav__links ativa" : "nav__links"}/> </li>
+          <li> <MenuItem text="Localização" route="/localizacao" className={pathname === "/localizacao" ? "nav__links ativa" : "nav__links"}/> </li>
+          <li> <MenuItem text="Vacinas" route="/vacinas" className={pathname === "/vacinas" ? "nav__links ativa" : "nav__links"} /> </li>
+          <li> <MenuItem text="Minha Carteira" route="/minha-carteira" className={pathname === "/minha-carteira" ? "nav__links ativa" : "nav__links"}/> </li>
+        </ul>
       </nav>
     </div>
   );

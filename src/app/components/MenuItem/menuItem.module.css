@@ -1,0 +1,16 @@
+.menuItem{
+	text-decoration: none;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menuItem span {
+	margin-top: 10px;
+	color: var(--preto);
+}
+
+.activeText {
+  color: red;
+}

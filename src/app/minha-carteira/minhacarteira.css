@@ -18,6 +18,8 @@
   padding: 0.5rem;
   border-radius: 50%;
   transition: 0.3s ease-in-out;
+  color: var(--branco);
+  font-size: 1.5rem;
 }
 
 .linkAdicionar:hover {

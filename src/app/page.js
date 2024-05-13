@@ -3,16 +3,13 @@
 import Link from "next/link";
 
 import FooterNav from "./components/FooterNav/FooterNav";
-import Navbar from "./components/Navbar/Navbar";
 import CardVacina from "./components/CardVacina/CardVacina";
 import CardTipoVacina from "./components/CardTiposVacina/CardTiposVacina";
 import Carousel from "./components/Carousel/Carousel";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import { getCategoria, getVacinas } from "@/util/api";
-
-
-
+import Menu from "./components/Menu/menu";
 
 export default function Home() {
 
@@ -31,7 +28,7 @@ export default function Home() {
 
   return (
     <div>
-      <Navbar />
+      <Menu />
 
       <div className={`${styles.conteudo} conteudo`}>
         <section className={styles.banner}>
@@ -86,7 +83,6 @@ export default function Home() {
         </section>
       </div>
 
-      <FooterNav />
     </div>
   );
 }
