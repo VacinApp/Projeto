@@ -1,13 +1,13 @@
 "use client"
-import { useState } from "react"
+
 import Formulario from "../components/Formulario/Formulario"
-import Navbar from "../components/Navbar/Navbar"
 import FooterNav from "../components/FooterNav/FooterNav"
+import Menu from "../components/Menu/menu";
 
 export default function PagFormulario() {
 	return (
 		<div>
-			<Navbar />
+			<Menu />
 			<div className="conteudo">
 				<Formulario />
 			</div>

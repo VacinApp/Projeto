@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 import { useState, useEffect } from 'react';
 import FooterNav from "../components/FooterNav/FooterNav";
-import Navbar from "../components/Navbar/Navbar";
 import VacinaCadastrada from "../components/VacinaCadastrada/VacinaCadastrada";
 import { getCarteira } from "@/util/api";
 
 import './minhacarteira.css';
+import Menu from '../components/Menu/menu';
 
 export default function MinhaCarteira() {
 
@@ -22,8 +22,8 @@ export default function MinhaCarteira() {
 
   return (
 
-    < div >
-      <Navbar />
+    <div>
+      <Menu />
       <section className="minhasVacinas">
         <header className="minhasVacinasCabecalho">
           <Link href='/formulario' className="linkAdicionar">

@@ -1,12 +1,11 @@
 import Detalhe from "../components/Detalhe/Detalhe";
 import FooterNav from "../components/FooterNav/FooterNav";
-import Navbar from "../components/Navbar/Navbar";
-
+import Menu from "../components/Menu/menu";
 
 export default function PagDetalhe({ searchParams }) {
 	return (
 		<div>
-			<Navbar />
+			<Menu />
 			<Detalhe nome={searchParams.nome} />
 			<FooterNav />
 		</div >

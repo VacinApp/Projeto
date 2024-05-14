@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar/Navbar";
 import FooterNav from "../components/FooterNav/FooterNav";
+import Menu from "../components/Menu/menu";
 
 export default function Localizacao() {
   return (
     <div>
-      <Navbar />
+      <Menu />
       <div className="conteudo">
 
       </div>

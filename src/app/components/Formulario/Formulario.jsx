@@ -9,7 +9,7 @@ import AreaTextoForm from '../AreaTextoForm/AreaTextoForm';
 import './formulario.css';
 import { getCarteira, addVacCarteira } from '@/util/api';
 import {v4 as uuid4} from "uuid";
-import  db from 'O:/repositorio/Projeto/data/db.json'
+import db from '../../../../data/db.json'
 
 const Formulario = () => {
 

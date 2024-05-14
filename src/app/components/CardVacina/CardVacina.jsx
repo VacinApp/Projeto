@@ -1,13 +1,13 @@
 import styles from './cardvacina.module.css';
 
-const CardVacina = ({ nome, descricao, imagem }) => {
+const CardVacina = ({ nome, apresentacao, imagem }) => {
   return (
     <article className={styles.cardVacina}>
       <img src={imagem} />
 
       <div className={styles.descricao}>
         <h1>{nome}</h1>
-        <p>{descricao}</p>
+        <p>{apresentacao}</p>
       </div>
     </article>
   );
