@@ -76,7 +76,7 @@ export default function Home() {
                 <CardVacina
                   key={vacina.nome}
                   nome={vacina.nome}
-                  descricao={vacina.descricao}
+                  apresentacao={vacina.apresentacao}
                   imagem={vacina.imagem}
                 />
               </Link>
