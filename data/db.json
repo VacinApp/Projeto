@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nome": "BCG",
+      "imagem": "/assets/img/vacinas/bcg.png",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "A vacina contra a tuberculose é o BCG (bacilo de Calmette & Guérin) liofilizado, obtido por atenuação do Mycobacterium bovis, apresentada em ampolas com múltiplas doses.",
@@ -24,7 +25,7 @@
       "administracao": "Subcutânea",
       "esquema": "-",
       "adversos": "-",
-      "contraIndicacao": "-" 
+      "contraIndicacao": "-"
     },
     {
       "id": 3,
@@ -454,6 +455,80 @@
       "esquema": "Esquema em vacinação de rotina: três doses a partir dos dois meses de idade, obedecendo a um intervalo de 60 dias entre as vacinações. Uma quarta dose deve ser aplicada aos 15 meses de idade. O intervalo mínimo entre as doses é de 30 dias.",
       "adversos": "Respeitadas as contra-indicações, a vacina oral contra poliomielite tem segurança bem estabelecida; no entanto, podem ocorrer quatro a 40 dias após a vacinação acidentes pós-vacinais (paralisias flácidas), na proporção de um caso em cada 2.390.000 primeiras doses e um caso para 13 milhões do total de doses aplicadas. Da segunda dose em diante as paralisias pós-vacinais são ainda mais raras.",
       "contraIndicacao": "Não existem contra-indicações absolutas para a aplicação de vacina contra poliomielite. Entretanto, nos casos abaixo, a criança deverá ser encaminhada aos Centros de Referência de Imunobiológicos Especiais para receberem a vacina inativada do tipo Salk (VIP): a) crianças imunodeprimidas (com deficiência imunológica congênita ou adquirida) não-vacinadas ou que receberam esquema incompleto de vacinação contra poliomielite; b) crianças que estejam em contato domiciliar com pessoa imunodeficiente suscetível e que necessitem receber vacina contra poliomielite; c) pessoas submetidas a transplante de medula óssea. As crianças com aids devem receber a VIP; quando não disponível esta vacina, deve-se utilizar a VOP; as crianças assintomáticas com infecção pelo VIH podem receber a VOP."
+    }
+  ],
+  "carteira": [
+    {
+      "id": "1",
+      "nome": "Hepatite A",
+      "dose": "1ª Dose",
+      "validade": "24/10/2024",
+      "data": "12/08/2023",
+      "lote": "H06",
+      "lab": "Fiocruz",
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
+    },
+    {
+      "id": "2",
+      "nome": "Penta (DTP/Hib/Hep. B)",
+      "dose": "1ª Dose",
+      "validade": "24/10/2024",
+      "data": "12/08/2023",
+      "lote": "H06",
+      "lab": "Pfizer",
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
+    },
+    {
+      "id": "3",
+      "nome": "Influenza H1N1",
+      "dose": "1ª Dose",
+      "data": "12/08/2023",
+      "validade": "24/10/2024",
+      "lote": "H06",
+      "lab": "Ronaldo",
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
+    },
+    {
+      "id": "49be21c7-3b4b-49e7-a1a6-a36f96642d07",
+      "nome": "DTP",
+      "dose": "Reforço",
+      "data": "2024-05-04",
+      "validade": "2024-05-15",
+      "lote": "dsfdsc",
+      "lab": "dasdasd",
+      "obs": "adadad"
+    }
+  ],
+  "categoria": [
+    {
+      "id": "0",
+      "nome": "Intradérmica",
+      "descricao": "Vacinas intradérmicas são administradas na camada superficial da pele. Elas geralmente contêm vírus inativados, os quais estimulam uma resposta imunológica sem causar a doença. Essa rota de administração pode ser usada para alcançar uma resposta imunológica eficaz com doses menores de antígenos.",
+      "imagem": "/assets/img/vacinas/intradermica.png"
+    },
+    {
+      "id": "1",
+      "nome": "Intramuscular (Vírus Inativo)",
+      "descricao": "Essas vacinas são injetadas no músculo e contêm vírus inativados para estimular uma resposta imunológica protetora. Ao serem administradas dessa forma, as vacinas intramusculares garantem uma absorção eficiente do antígeno, desencadeando uma resposta imunológica contra doenças virais específicas.",
+      "imagem": "/assets/img/vacinas/intramuscular_virus.png"
+    },
+    {
+      "id": "2",
+      "nome": "Oral",
+      "descricao": "Vacinas orais são administradas pela boca, geralmente em forma líquida ou em cápsulas. Elas contêm agentes imunizantes, como vírus ou bactérias atenuadas ou inativadas, que estimulam uma resposta imunológica no trato gastrointestinal. Este tipo de vacina é útil para proteger contra doenças transmitidas por via oral, oferecendo uma imunização eficaz contra patógenos como vírus e bactérias.",
+      "imagem": "/assets/img/vacinas/oral.png"
+    },
+    {
+      "id": "3",
+      "nome": "Subcutânea",
+      "descricao": "Vacinas subcutâneas são administradas abaixo da pele, mas acima do músculo. Elas podem conter vírus inativados, bactérias inativadas ou seus componentes para estimular uma resposta imunológica. Esta rota de administração é escolhida dependendo da vacina e do alvo da imunização, oferecendo uma proteção eficaz contra uma variedade de doenças.",
+      "imagem": "/assets/img/vacinas/subcutanea.png"
+    },
+    {
+      "id": "4",
+      "nome": "Intramuscular (Bactéria Inativo)",
+      "descricao": "Esta categoria de vacina é administrada diretamente no músculo. Geralmente, contém bactérias inativadas ou seus componentes para desencadear uma resposta imunológica protetora. Ao serem injetadas no músculo, as vacinas intramusculares permitem uma absorção eficiente do antígeno pelo sistema imunológico, promovendo uma resposta imune robusta contra doenças bacterianas.",
+      "imagem": "/assets/img/vacinas/intramuscular_bacteria.png"
     }
   ]
 }
