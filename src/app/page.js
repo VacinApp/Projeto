@@ -35,21 +35,23 @@ export default function Home() {
           <Carousel />
         </section>
 
-        <h1>Tipos de Vacina</h1>
         <section className={styles.tipoVacina}>
-          {categorias ? (categorias.map((tiposVacina) => (
-            <Link
-              href={`/detalhe/tipo?nome=${tiposVacina.nome}`}
-              className={styles.vacinaLink}
-              key={tiposVacina.nome}
-            >
-              <CardTipoVacina
+          <h1>Tipos de Vacina</h1>
+          <div className={styles.categorias}>
+            {categorias ? (categorias.map((tiposVacina) => (
+              <Link
+                href={`/detalhe/tipo?nome=${tiposVacina.nome}`}
+                className={styles.vacinaLink}
                 key={tiposVacina.nome}
-                nome={tiposVacina.nome}
-                imagem={tiposVacina.imagem}
-              />
-            </Link>
-          ))) : (<p>Loading</p>)}
+              >
+                <CardTipoVacina
+                  key={tiposVacina.nome}
+                  nome={tiposVacina.nome}
+                  imagem={tiposVacina.imagem}
+                />
+              </Link>
+            ))) : (<p>Loading</p>)}
+          </div>
         </section>
 
         <section className={styles.vacinas}>

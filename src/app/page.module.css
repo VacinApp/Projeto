@@ -52,8 +52,17 @@
 .tipoVacina {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 2rem;
+  max-width: 100.405rem;
+  width: 100%;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Media Screen */

@@ -11,6 +11,12 @@
 	color: var(--preto);
 }
 
-.activeText {
-  color: red;
+.active {
+	font-weight: 700;
+	border-bottom: 0.35rem solid var(--azul);
+	padding-bottom: 0;
+}
+
+.activeIcon {
+	color: var(--azul);
 }
