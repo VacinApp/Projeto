@@ -23,6 +23,16 @@
   background-color: var(--branco);
 }
 
+.textVacina {
+  line-height: 1.5em
+}
+
+.descricao {
+  margin-bottom: 0.5rem;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
 .botao {
   justify-content: center;
   display: flex;

@@ -1,7 +1,7 @@
 {
   "vacinas": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "BCG",
       "imagem": "/assets/img/vacinas/bcg.png",
       "maximoDoses": 1,
@@ -15,8 +15,9 @@
       "contraIndicacao": "Imunodeficiência congênita ou adquirida, incluindo crianças infectadas pelo vírus da imunodeficiência humana (VIH) que apresentem sintomas da doença. Embora não apresentem contra-indicações absolutas, recomenda-se adiar a vacinação com BCG em recém-nascidos com peso inferior a 2.000g e em presença de afecções dermatológicas extensas em atividade."
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Dengue",
+      "imagem": "", 
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina atenuada, composta pelos quatro sorotipos vivos do vírus dengue, obtidos separadamente por tecnologia de DNA recombinante. Contém ainda aminoácidos essenciais (incluindo fenilalanina), aminoácidos não essenciais, cloridrato de arginina, sacarose, trealose di-hidratada, sorbitol, trometamol e ureia. O diluente é constituído por cloreto de sódio e água para injeções. Não contém adjuvantes e conservantes.",
@@ -28,8 +29,9 @@
       "contraIndicacao": "-"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "dT",
+      "imagem": "/assets/img/vacinas/dt.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém toxoides diftérico e tetânico, derivados das toxinas produzidas pelas bactérias causadoras das doenças; tem o sal de alumínio como adjuvante, cloreto de sódio, e água para injeção.",
@@ -41,8 +43,9 @@
       "contraIndicacao": "Apenas pessoas com alergia grave (anafilaxia) a algum dos componentes da vacina ou a dose anterior."
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "dTpa",
+      "imagem": "",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém os toxóides diftérico e tetânico (derivados das toxinas produzidas pelas bactérias causadoras das doenças), e componentes da cápsula da bactéria da coqueluche (Bordetella pertussis), sal de alumínio como adjuvante, fenoxietanol, cloreto de sódio e água para injeção.",
@@ -54,8 +57,9 @@
       "contraIndicacao": "Pessoas que apresentaram anafilaxia ou sintomas neurológicos causados por algum componente da vacina ou após a administração de dose anterior."
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "dTpa-VIP",
+      "imagem": "/assets/img/vacinas/dtpa.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém os toxoides diftérico e tetânico (derivados das toxinas produzidas pelas bactérias causadoras das doenças), componentes da cápsula da bactéria da coqueluche (Bordetella pertussis), vírus da poliomielite inativados (mortos) tipos 1, 2 e 3, sal de alumínio como adjuvante, 2-fenoxietanol, polissorbato 80, cloreto de sódio e água para injeção. Pode conter ainda traços de formaldeído, neomicina e polimixina B usados no processo de fabricação.",
@@ -67,9 +71,10 @@
       "contraIndicacao": "Pessoas que apresentaram anafilaxia após uso de componentes da vacina ou dose anterior."
     },
     {
-      "id": 6,
-      "nome": "DT",
+      "id": "6",
+      "nome": "DT (crianças com encefalite)",
       "maximoDoses": 3,
+      "imagem": "",
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém toxoides diftérico e tetânico, derivados das toxinas produzidas pelas bactérias causadoras das doenças, sal de alumínio como adjuvante, cloreto de sódio, e água para injeção.",
       "idade": "-",
@@ -80,8 +85,9 @@
       "contraIndicacao": "Maiores de 7 anos de idade. Não deve ser utilizada de rotina. A vacina recomendada de rotina para crianças é a tríplice bacteriana e suas combinações, que também protegem contra a coqueluche."
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "DTP",
+      "imagem": "/assets/img/vacinas/dtp.png",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "A vacina tríplice DTP contém toxóide diftérico, toxóide tetânico e Bordetella pertussis inativada em suspensão, tendo como adjuvante hidróxido ou fosfato de alumínio, sendo apresentada sob a forma liquida em ampola ou frascoampola com dose única, ou frasco-ampola com múltiplas doses.",
@@ -93,7 +99,7 @@
       "contraIndicacao": "A aplicação da vacina tríplice DTP é contra-indicada em crianças que tenham apresentado após a aplicação de dose anterior: a) reação anafilática sistêmica grave (hipotensão, choque, dificuldade respiratória); b) encefalopatia nos primeiros sete dias após a vacinação. Notas: 1) Na situação do item a, já que não se pode estabelecer qual o componente da vacina responsável pela reação Anafilática e por causa da importância da proteção contra o tétano, é conveniente que o indivíduo que apresentou esse raro evento receba, quando indicada, a imunização passiva contra o tétano; FUNASA - junho/2001 - pág. 30 2) Não devem ser administradas doses subseqüentes da vacina contra a coqueluche às crianças em que se manifestou encefalopatia nos primeiros sete dias após a vacinação, mesmo que a responsabilidade da mesma pelo evento não possa ser estabelecida. O esquema vacinal básico será completado com DT."
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "DTPa-VIP/Hib",
       "maximoDoses": 1,
       "obrigatoriedade": false,
@@ -106,7 +112,7 @@
       "contraIndicacao": "Maiores de 7 anos. Crianças que apresentaram encefalopatia nos sete dias seguintes à aplicação anterior de vacina contendo componente pertussis. Anafilaxia a qualquer componente da vacina."
     },
     {
-      "id": 9,
+      "id": "9",
       "nome": "DTPa-VIP-HB/Hib",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -119,7 +125,7 @@
       "contraIndicacao": "Maiores de 7 anos. Crianças que apresentaram encefalopatia nos sete dias seguintes à aplicação anterior de vacina contendo componente pertussis. Anafilaxia a qualquer componente da vacina."
     },
     {
-      "id": 10,
+      "id": "10",
       "nome": "DTPw",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -132,7 +138,7 @@
       "contraIndicacao": "Pessoas com mais de 7 anos de idade. Crianças que apresentaram, após a aplicação de vacina DTPw ou combinada a ela: episódio hipotônico-hiporresponsivo – EHH (palidez, perda de tônus muscular e consciência) nas primeiras 48 após a aplicação; convulsões nas primeiras 72 horas; reação anafilática nas primeiras duas horas e encefalopatia aguda nos sete dias após a vacinação."
     },
     {
-      "id": 11,
+      "id": "11",
       "nome": "DTPw-HB/Hib",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -145,8 +151,9 @@
       "contraIndicacao": "Maiores de 7 anos de idade, com ou sem história de reação alérgica grave (anafilaxia) a algum componente da vacina. Crianças que apresentaram reações vacinais consideradas graves após a aplicação da vacina DTPw ou combinada a ela: Episódio hipotônico-hiporresponsivo (EHH) nas primeiras 48 horas. Esta reação em geral é precedida por irritabilidade e febre. A criança torna-se pálida, perde o tônus muscular e a consciência, e esse quadro pode durar desde alguns minutos até algumas horas. Apesar de muito angustiante, melhora sem deixar sequelas. Sua ocorrência não indica tendência de repetição quando da aplicação de doses subsequentes. Convulsões nas primeiras 72 horas. Reação anafilática nas primeiras duas horas. Encefalopatia aguda nos sete dias após a vacinação"
     },
     {
-      "id": 12,
+      "id": "12",
       "nome": "Febre Amarela",
+      "imagem": "/assets/img/vacinas/febreAmarela.png", 
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "A vacina contra febre amarela é constituída de vírus vivos atenuados, apresentada sob a forma liofilizada em frasco de múltiplas doses, acompanhada de diluente (soro fisiológico).",
@@ -158,8 +165,9 @@
       "contraIndicacao": "As estabelecidas nas contra-indicações gerais para as vacinas de vírus vivos atenuados e alergia anafilática ao ovo."
     },
     {
-      "id": 13,
+      "id": "13",
       "nome": "Febre Tifoide",
+      "imagem": "",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Atualmente utilizam-se dois tipos de vacina contra febre tifóide: a) Vacina parenteral contendo 25mg por dose de polissacarídeo capsular Vi purificado, extraído de Salmonella typhi, em 0,5ml de solução-tampão isotônica com fenol; b) Vacina oral de bactérias vivas atenuadas da cepa Ty2la. Existem em duas apresentações: - cápsulas de gelatina resistentes a ácido. Cada cápsula contém 6 X 109 CFU de Ty21a e 5 a 50 X 109 de Ty21a não-viáveis, com sacarose, ácido ascórbico, mistura de aminoácidos, lactose e estearato de magnésio. - Fomulação em suspensão líquida, com sachets contendo 2 a 10 X 109 CFU de Ty21a, 5 a 60 X 109 Ty21a não-viáveis, sacarose, ácido ascórbico, mistura de aminoácidos, lactose e aspartame. Acompanha um sachet de solução-tampão com bicarbonato de sódio, ácido ascórbico e lactose. 19.3. Idade de aplicação a) a vacina parenteral é utilizada a partir de dois anos de idade; b) a vacina oral sob a forma de cápsulas pode ser utilizada a partir de seis anos de idade e em suspensão líquida a partir de dois anos. 19.4. Via de administração A vacina de polissacarídeo Vi é aplicada por via intramuscular e a vacina Ty21a é administrada por via oral.",
@@ -171,8 +179,9 @@
       "contraIndicacao": "a) Vacina Vi: reação local ou sistêmica severa após dose anterior. b) Vacina Ty21a: deficiência imune congênita ou adquirida; não deve ser também usada nos casos de doença febril ou infecção gastrointestinal agudas, assim como durante até três dias após o tratamento com antibióticos. Deve-se observar intervalo de três dias entre a última dose da vacina Ty21a e o começo da profilaxia da malária com cloroquina, pirimetamina/sulfadoxina, mefloquina ou proguanil. Nota: Não há dados sobre a segurança das vacinas Vi ou Ty21a na gestação, mas se for indicado utilizá-las, em função de riscos epidemiológicos, é preferível usar a vacina polissacáride Vi, por ser vacina não-viva, ao contrário da Ty21a. Raciocínio semelhante se aplica ao seu uso em mães que estejam amamentando."
     },
     {
-      "id": 14,
+      "id": "14",
       "nome": "Hepatite A",
+      "imagem": "/assets/img/vacinas/hepatiteA.png",
       "maximoDoses": 2,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta por antígeno do vírus da hepatite A, sal de alumínio amorfo, estabilizante (varia conforme o fabricante), cloreto de sódio a 0,9%. Pode conter traços de antibiótico (neomicina), fenoxietanol e formaldeído. Na rede privada está disponível a apresentacao pediátrica (para uso até 15, 17 ou 19 anos de idade, dependendo do fabricante) e de adultos.",
@@ -184,8 +193,9 @@
       "contraIndicacao": "Pessoas que tiveram reação anafilática a algum componente da vacina ou a dose anterior."
     },
     {
-      "id": 15,
+      "id": "15",
       "nome": "Hepatite B",
+      "imagem": "/assets/img/vacinas/hepatiteB.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "Há dois tipos de vacina contra hepatite B: a de primeira geração contém partículas virais obtidas do plasma de doadores do vírus, inativadas pelo formol; a de segunda geração é preparada por método de engenharia genética e obtida por tecnologia de recombinação do ADN (ácido desoxirribonucleico). As duas vacinas utilizam hidróxido de alumínio como adjuvante e o timerosal como conservante. O PNI recomenda atualmente apenas o uso da vacina recombinante, isto é, a obtida por engenharia genética. As vacinas recombinantes licenciadas atualmente são produzidas a partir de leveduras (levedura de padeiro), nas quais se introduziu um plasmídio contendo o gene AgHBs. Contêm cinco a 40mg/ml de antígeno (AgHBs), providos em hidróxido de alumínio, utilizando-se o timerosal como conservante. Três doses dessa vacina, aplicadas por via intramuscular, induzem títulos protetores (>10mUI/ml) em mais de 90% dos receptores adultos sadios e em mais de 95% dos lactentes, crianças e adolescentes de até 19 anos de idade. Idosos, dialisados e imunodeficientes apresentam resposta imunológica mais baixa. A vacina contra hepatite B é apresentada sob a forma líquida, em ampolas individuais ou frasco-ampolas com múltiplas doses.",
@@ -197,8 +207,9 @@
       "contraIndicacao": "A ocorrência, muito rara, de reação anafilática sistêmica seguindo-se à aplicação de dose anterior"
     },
     {
-      "id": 16,
+      "id": "16",
       "nome": "Hepatite A+B",
+      "imagem": "",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta do vírus inativado (morto) da hepatite A e da proteína de superfície do vírus da hepatite B. Também possui em sua composição: sais de alumínio, formaldeído, sulfato de neomicina, fenoxietanol, polissorbato 20, cloreto de sódio e água para injeção.",
@@ -210,8 +221,9 @@
       "contraIndicacao": "Pessoas que apresentaram anafilaxia provocada por qualquer componente da vacina ou por dose anterior. Pessoas que desenvolveram púrpura trombocitopênica após dose anterior de vacina com antígenos do vírus da hepatite B."
     },
     {
-      "id": 17,
+      "id": "17",
       "nome": "Herpes Zóster",
+      "imagem": "",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina composta por vírus vivos atenuados da varicela zóster (VVZ) da cepa Oka/Merck, sacarose, gelatina, ureia, cloreto de sódio, levoglutamato de sódio monoidratado, fosfato de sódio dibásico, fosfato de potássio monobásico, cloreto de potássio, traços de neomicina e de soro de bezerro e água para injeção. Não contém conservantes.",
@@ -223,7 +235,7 @@
       "contraIndicacao": "Pessoas imunodeprimidas, alergia grave (anafilaxia) a algum dos componentes da vacina, pessoas com tuberculose ativa não tratada, gestantes."
     },
     {
-      "id": 18,
+      "id": "18",
       "nome": "Hib",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -236,8 +248,9 @@
       "contraIndicacao": "Pessoas que possuem doenças graves ou relato de ocorrência de reação anafilática sistêmica após aplicação de dose anterior."
     },
     {
-      "id": 19,
+      "id": "19",
       "nome": "HPV2",
+      "imagem":"/assets/img/vacinas/hpv.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta pelas proteínas L1 do papilomavírus humano (HPV) tipos 16 e 18, 3-O-desacil-4 monofosforil lipídio A (MPL), alumínio, cloreto de sódio, fosfato de sódio monobásico diidratado e água para injeção.",
@@ -249,7 +262,7 @@
       "contraIndicacao": "Gestantes e pessoas que apresentaram anafilaxia após receber uma dose da vacina ou a algum de seus componentes."
     },
     {
-      "id": 20,
+      "id": "20",
       "nome": "HPV4",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -262,8 +275,9 @@
       "contraIndicacao": "Gestantes e pessoas que apresentaram anafilaxia após receber uma dose da vacina ou a algum de seus componentes."
     },
     {
-      "id": 21,
+      "id": "21",
       "nome": "Influenza",
+      "imagem": "/assets/img/vacinas/meningococicaC.png",
       "maximoDoses": 2,
       "obrigatoriedade": true,
       "apresentacao": "Vacinas trivalentes obtidas a partir de culturas em ovos embrionados de galinha, contendo 15µg de dois subtipos do sorotipo A e 15µg de uma cepa do sorotipo B. As vacinas são fracionadas ou de subunidades, fornecidas em seringas preparadas ou em frascos multidoses.",
@@ -275,8 +289,9 @@
       "contraIndicacao": "Reação anafilática a proteínas do ovo ou a outros componentes da vacina, doenças febris agudas."
     },
     {
-      "id": 22,
+      "id": "22",
       "nome": "Meningocócica B",
+      "imagem": "",
       "maximoDoses": 2,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não causa infecção. É composta por quatro componentes (três proteínas subcapsulares e vesículas da membrana externa do meningococo B), além de hidróxido de alumínio, cloreto de sódio, histidina, sacarose e água para injeção.",
@@ -288,8 +303,9 @@
       "contraIndicacao": "Pessoas que tiveram anafilaxia após uso de algum componente da vacina ou após dose anterior."
     },
     {
-      "id": 23,
+      "id": "23",
       "nome": "Meningocócica C",
+      "imagem": "/assets/img/vacinas/meningococicaC.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença . Contém antígeno formado por componente da cápsula da bactéria (oligossacarídeo) do sorogrupo C conjugado a uma proteína que, dependendo do fabricante, pode ser o toxoide tetânico ou o mutante atóxico da toxina diftérica, chamado CRM 197. Contém também adjuvante hidróxido de alumínio, manitol, fosfato de sódio monobásico monoidratado, fosfato de sódio dibásico heptaidratado, cloreto de sódio e água para injeção.",
@@ -301,8 +317,9 @@
       "contraIndicacao": "Pessoas que tiveram anafilaxia após uso de algum componente da vacina ou a dose anterior."
     },
     {
-      "id": 24,
+      "id": "24",
       "nome": "Meningocócica ACWY",
+      "imagem": "/assets/img/vacinas/meningococicaACWY.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém antígeno formado por componentes das cápsulas das bactérias (oligossacarídeos) dos sorogrupos A, C, W e Y conjugados a uma proteína que, dependendo do fabricante, pode ser o toxoide tetânico ou o mutante atóxico da toxina diftérica, chamado CRM-197. Pode conter também sacarose; trometamol; fosfato de potássio diidrogenado; sacarose; cloreto de sódio; fosfato de sódio diidrogenado monoidratado; fosfato dissódico hidrogenado diidratado; cloreto de sódio e água para injeção.",
@@ -314,7 +331,7 @@
       "contraIndicacao": "Pessoas que tiveram anafilaxia após o uso de algum componente da vacina ou após dose anterior."
     },
     {
-      "id": 25,
+      "id": "25",
       "nome": "Palivizumabe",
       "maximoDoses": 1,
       "obrigatoriedade": false,
@@ -327,7 +344,7 @@
       "contraIndicacao": "Não há contraindicações, exceto reações alérgicas a doses anteriores do produto."
     },
     {
-      "id": 26,
+      "id": "26",
       "nome": "Pneumocócica 10-valente",
       "maximoDoses": 3,
       "obrigatoriedade": true,
@@ -340,7 +357,7 @@
       "contraIndicacao": "Crianças que apresentaram anafilaxia após usar algum componente da vacina ou após dose anterior da vacina."
     },
     {
-      "id": 27,
+      "id": "27",
       "nome": "Pneumocócica 13-valente",
       "maximoDoses": 3,
       "obrigatoriedade": false,
@@ -353,8 +370,9 @@
       "contraIndicacao": "Crianças que apresentaram anafilaxia após usar algum componente da vacina ou após dose anterior da vacina."
     },
     {
-      "id": 28,
+      "id": "28",
       "nome": "Pneumocócica Polissacarídica 23-valente",
+      "imagem": "/assets/img/vacinas/pneumococica.png",
       "maximoDoses": 2,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta de partículas purificadas (polissacarídeos) das cápsulas de 23 tipos de Streptococos pneumoniae (pneumococo), cloreto de sódio, água para injeção e fenol.",
@@ -366,7 +384,7 @@
       "contraIndicacao": "Crianças, adolescentes e adultos que apresentaram anafilaxia causada por algum componente ou dose anterior da vacina."
     },
     {
-      "id": 29,
+      "id": "29",
       "nome": "Raiva",
       "maximoDoses": 2,
       "obrigatoriedade": false,
@@ -379,8 +397,9 @@
       "contraIndicacao": "A vacina contra raiva do tipo Fuenzalida-Palacios deve ser contra-indicada a pessoas que, ao recebê-la anteriormente, apresentaram reações neuroparalíticas. Além disso, sua administração deve ser suspensa nos indivíduos que apresentem alterações neurológicas no decorrer da aplicação do esquema prescrito. Nessa eventualidade, sob orientação médica, a vacina Fuenzalida-Palacios será substituída por vacina anti-rábica obtida em cultivo de células. Tanto para os indivíduos que apresentaram anteriormente eventos adversos graves à vacina Fuenzalida-Palacios quanto para todos os imunodeprimidos, deve-se preferir o uso da vacina contra raiva de cultivo celular (ver Manual dos Centros de Referência de Imunobiológicos Especiais)."
     },
     {
-      "id": 30,
+      "id": "30",
       "nome": "Rotavírus",
+      "imagem": "/assets/img/vacinas/rotavirus.png",
       "maximoDoses": 2,
       "obrigatoriedade": true,
       "apresentacao": "Contém um tipo de rotavírus vivo “enfraquecido”, além de sacarose, adipatodissódico, meio Eagle modificado Dulbecco (DMEM) e água estéril.",
@@ -392,8 +411,9 @@
       "contraIndicacao": "Crianças fora da faixa etária citada; com deficiências imunológicas por doença ou uso de medicamentos que causam imunossupressão; com alergia grave (urticária disseminada, dificuldade respiratória e choque anafilático) provocada por algum dos componentes da vacina ou por dose anterior da mesma; e com doença do aparelho gastrintestinal ou história prévia de invaginação intestinal."
     },
     {
-      "id": 31,
+      "id": "31",
       "nome": "Tetra viral",
+      "imagem": "/assets/img/vacinas/tetraviral.png",
       "maximoDoses": 2,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina atenuada, contendo vírus vivos “enfraquecidos” do sarampo, da rubéola, da caxumba e da varicela (catapora), lactose anidra, sorbitol, manitol, aminoácidos, traços de neomicina e água para injeção. Contém traços de proteína do ovo de galinha usado no processo de fabricação da vacina.",
@@ -405,8 +425,9 @@
       "contraIndicacao": "Gestantes; pessoas com comprometimento da imunidade por doença ou medicação; história de anafilaxia após dose anterior da vacina ou a algum componente."
     },
     {
-      "id": 32,
+      "id": "32",
       "nome": "Tríplice Viral",
+      "imagem": "/assets/img/vacinas/tripliceViral.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "Vacina combinada de vírus vivos atenuados contra o sarampo, a caxumba e a rubéola (SCR - tríplice viral), apresentada sob a forma liofilizada, em frasco-ampola com uma ou múltiplas doses.",
@@ -418,8 +439,9 @@
       "contraIndicacao": "a) Antecedente de reação anafilática sistêmica após a ingestão de ovo de galinha. Entende-se por reação anafilática sistêmica a reação imediata (urticária generalizada, dificuldade respiratória, edema de glote, hipotensão ou choque) que se instala habitualmente na primeira hora após o estímulo do alérgeno (ingestão de ovo de galinha, por exemplo). b) Gravidez. c) Administração de imunoglobulina humana normal (gamaglobulina), sangue total ou plasma nos três meses anteriores."
     },
     {
-      "id": 33,
+      "id": "33",
       "nome": "Varicela",
+      "imagem": "/assets/img/vacinas/varicela.png",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina atenuada, contendo vírus vivos “enfraquecidos” da varicela, além de gelatina, traços de neomicina, água para injeção. Não contém traços de proteína do ovo de galinha.",
@@ -431,7 +453,7 @@
       "contraIndicacao": "Pessoas que tiveram anafilaxia causada por qualquer dos componentes da vacina ou após dose anterior, e gestantes."
     },
     {
-      "id": 34,
+      "id": "34",
       "nome": "VIP",
       "maximoDoses": 3,
       "obrigatoriedade": true,
@@ -444,8 +466,9 @@
       "contraIndicacao": "A história de reação alérgica grave (anafilaxia) à dose anterior da vacina, ou a algum de seus componentes, contraindica doses futuras."
     },
     {
-      "id": 35,
+      "id": "35",
       "nome": "VOP",
+      "imagem": "/assets/img/vacinas/vop.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "A VOP é indicada para a prevenção da poliomielite e é produzida a partir de vírus vivos atenuados em cultura de células derivadas especialmente de tecido renal de macacos da espécie Cercopthecos aethiops. Contém os três tipos de poliovírus atenuados (tipos I, II e III). Contém, por dose, as seguintes concentrações virais: - Poliovírus tipo I ............1.000.000 CCID 50 (*) - Poliovírus tipo II...............100.000 CCID 50 - Poliovírus tipo III..............600.000 CCID 50 (*) CCID = dose infectante para 50% das culturas de células. Contém, além disso, conservantes (antibióticos) e termoestabilizador (por exemplo cloreto de magnésio e aminoácidos ou sacarose). É apresentada sob a forma líquida, habitualmente em um conjunto de frasco, aplicador e tampa rosqueável, moldados em plástico maleável e resistente, contendo 20 ou 25 doses.",
@@ -487,16 +510,6 @@
       "lote": "H06",
       "lab": "Ronaldo",
       "obs": "Senti dor no braço, tive febre e sintomas da gripe."
-    },
-    {
-      "id": "49be21c7-3b4b-49e7-a1a6-a36f96642d07",
-      "nome": "DTP",
-      "dose": "Reforço",
-      "data": "2024-05-04",
-      "validade": "2024-05-15",
-      "lote": "dsfdsc",
-      "lab": "dasdasd",
-      "obs": "adadad"
     }
   ],
   "categoria": [
