@@ -18,6 +18,10 @@ export default function MinhaCarteira() {
       .then((data) => setCarteira(data), [])
   })
 
+  function loadVacinas() {
+    getCarteira().then((data) => setCarteira(data))
+  }
+
   const tamanhoCarteira = carteira ? carteira.length : null
 
   return (
@@ -41,6 +45,7 @@ export default function MinhaCarteira() {
             obs={dados.obs}
             id={dados.id}
             key={dados.id}
+            onUpdate={loadVacinas}
           />
         ))) : (<p>Loading</p>)}
         <div className={tamanhoCarteira !== 0 ? 'temAqui' : 'nadaAqui'}>

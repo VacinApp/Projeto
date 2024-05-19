@@ -4,58 +4,46 @@ import { useState, useEffect } from 'react'
 import './vacinacadastrada.css'
 import { deleteVacCarteira, getCarteira, updateVacCarteira } from '@/util/api'
 
-const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id }) => {
+const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUpdate }) => {
 
-  const [carteira, setCarteira] = useState(null);
-  useEffect(() => {
-    getCarteira()
-      .then((data) => setCarteira(data), [])
-  })
 
-	const [dos, setDos] = useState(dose);
-	const [date, setDate] = useState(data);
-	const [val, setVal] = useState(validade);
-	const [lot, setLot] = useState(lote);
-	const [laboratorio, setLaboratorio] = useState(lab);
-	const [observacao, setObservacao] = useState(obs);
-
+  const [dos, setDos] = useState(dose);
+  const [date, setDate] = useState(data);
+  const [val, setVal] = useState(validade);
+  const [lot, setLot] = useState(lote);
+  const [laboratorio, setLaboratorio] = useState(lab);
+  const [observacao, setObservacao] = useState(obs);
+  const [edicao, setEdicao] = useState(false);
+  const [carteiraAtiva, setCarteiraAtiva] = useState(false);
 
   function handleDeleteVacCarteira() {
-    deleteVacCarteira(id).then((status) =>{
-      if (status === 200){
-        getCarteira()
-        .then((data) => setCarteira(data))
+    deleteVacCarteira(id).then((status) => {
+      if (status === 200) {
+        onUpdate();
       }
-    })
+    });
   }
 
 
-  function handleUpdateVacCarteira(event){
+  function handleUpdateVacCarteira(event) {
     event.preventDefault();
     const dose = dos;
     const data = date;
     const validade = val;
     const lote = lot;
     const lab = laboratorio;
-		const obs = observacao;
-		const v = { id, nome, dose, data, validade, lote, lab, obs } 
-    updateVacCarteira(v).then((status) =>{
-      if (status === 201){
-        getCarteira()
-        .then((data) => setCarteira(data))
+    const obs = observacao;
+    const v = { id, nome, dose, data, validade, lote, lab, obs }
+    updateVacCarteira(v).then((status) => {
+      if (status === 201) {
+        onUpdate();
       }
-     })
+    });
   }
-
-
-
-  const [edicao, setEdicao] = useState(false);
 
   function ativarEdicao() {
     setEdicao(!edicao);
   }
-
-  const [carteiraAtiva, setCarteiraAtiva] = useState(false);
 
   const alternarCarteira = () => {
     setCarteiraAtiva(!carteiraAtiva)
@@ -92,22 +80,22 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id }) =>
         {/* MODO EDIÇÃO */}
         <div className={edicao ? 'modoEdicao' : 'escondido'}>
           <label><strong>Dose:</strong></label>
-          <input value={dos}  onChange={valor => setDos(valor.target.value)}/>
+          <input value={dos} onChange={valor => setDos(valor.target.value)} />
 
           <label><strong>Validade do Lote:</strong></label>
-          <input type='date' onChange={valor => setVal(valor.target.value)}/>
+          <input value={val} type='date' onChange={valor => setVal(valor.target.value)} />
 
           <label><strong>Laboratório:</strong></label>
           <input value={laboratorio} onChange={valor => setLaboratorio(valor.target.value)} />
 
           <label><strong>Data da Vacinação:</strong></label>
-          <input type='date' onChange={valor => setDate(valor.target.value)}/>
+          <input value={date} type='date' onChange={valor => setDate(valor.target.value)} />
 
           <label><strong>Lote:</strong></label>
-          <input value={lot}  onChange={valor => setLot(valor.target.value)}/>
+          <input value={lot} onChange={valor => setLot(valor.target.value)} />
 
           <label><strong>Observação:</strong></label>
-          <textarea value={observacao}  onChange={valor => setObservacao(valor.target.value)}/>
+          <textarea value={observacao} onChange={valor => setObservacao(valor.target.value)} />
 
           <button onClick={handleUpdateVacCarteira}>Salvar</button>
         </div>
@@ -119,7 +107,7 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id }) =>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default VacinaCadastrada;
