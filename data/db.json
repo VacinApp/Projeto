@@ -17,7 +17,7 @@
     {
       "id": "2",
       "nome": "Dengue",
-      "imagem": "", 
+      "imagem": "",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina atenuada, composta pelos quatro sorotipos vivos do vírus dengue, obtidos separadamente por tecnologia de DNA recombinante. Contém ainda aminoácidos essenciais (incluindo fenilalanina), aminoácidos não essenciais, cloridrato de arginina, sacarose, trealose di-hidratada, sorbitol, trometamol e ureia. O diluente é constituído por cloreto de sódio e água para injeções. Não contém adjuvantes e conservantes.",
@@ -153,7 +153,7 @@
     {
       "id": "12",
       "nome": "Febre Amarela",
-      "imagem": "/assets/img/vacinas/febreAmarela.png", 
+      "imagem": "/assets/img/vacinas/febreAmarela.png",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "A vacina contra febre amarela é constituída de vírus vivos atenuados, apresentada sob a forma liofilizada em frasco de múltiplas doses, acompanhada de diluente (soro fisiológico).",
@@ -250,7 +250,7 @@
     {
       "id": "19",
       "nome": "HPV2",
-      "imagem":"/assets/img/vacinas/hpv.png",
+      "imagem": "/assets/img/vacinas/hpv.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta pelas proteínas L1 do papilomavírus humano (HPV) tipos 16 e 18, 3-O-desacil-4 monofosforil lipídio A (MPL), alumínio, cloreto de sódio, fosfato de sódio monobásico diidratado e água para injeção.",
@@ -485,8 +485,8 @@
       "id": "1",
       "nome": "Hepatite A",
       "dose": "1ª Dose",
-      "validade": "24/10/2024",
-      "data": "12/08/2023",
+      "data": "2029-06-28",
+      "validade": "2024-10-24",
       "lote": "H06",
       "lab": "Fiocruz",
       "obs": "Senti dor no braço, tive febre e sintomas da gripe."
@@ -495,8 +495,8 @@
       "id": "2",
       "nome": "Penta (DTP/Hib/Hep. B)",
       "dose": "1ª Dose",
-      "validade": "24/10/2024",
-      "data": "12/08/2023",
+      "validade": "2023-08-12",
+      "data": "2024-10-24",
       "lote": "H06",
       "lab": "Pfizer",
       "obs": "Senti dor no braço, tive febre e sintomas da gripe."
@@ -505,11 +505,11 @@
       "id": "3",
       "nome": "Influenza H1N1",
       "dose": "1ª Dose",
-      "data": "12/08/2023",
-      "validade": "24/10/2024",
+      "data": "2027-10-27",
+      "validade": "2024-05-28",
       "lote": "H06",
       "lab": "Ronaldo",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
+      "obs": "Senti dor no braço, tive febre e sintomas da gripe adeus."
     }
   ],
   "categoria": [
