@@ -16,6 +16,13 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
   const [edicao, setEdicao] = useState(false);
   const [carteiraAtiva, setCarteiraAtiva] = useState(false);
 
+  const doses = [
+		'1ª Dose',
+		'2ª Dose',
+		'3ª Dose',
+		'Reforço',
+	]
+
   function handleDeleteVacCarteira() {
     deleteVacCarteira(id).then((status) => {
       if (status === 200) {
@@ -82,7 +89,10 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
           <div className="inputs">
             <div>
               <label><strong>Dose:</strong></label>
-              <input className="editar" value={dos} onChange={valor => setDos(valor.target.value)} />
+              <select  className="editar" value={dos} onChange={evento => setDos(evento.target.value)}>
+				    <option />
+				        {doses.map(item => <option key={item}>{item}</option>)}
+			      </select>
             </div>
 
             <div>

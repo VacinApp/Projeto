@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
 .containerVacinaCadastrada {
   border-bottom: 1px solid var(--cinza-claro);
 }
@@ -76,14 +83,14 @@
   color: #f41c1c;
 }
 
-.escondido{
+.escondido {
   display: none;
 }
 
 .inputs {
   display: grid;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   gap: 1rem;
 }
 
@@ -151,7 +158,7 @@
 
 @media (min-width: 425px) {
   .inputs {
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
