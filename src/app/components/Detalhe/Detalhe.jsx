@@ -22,47 +22,49 @@ const Detalhe = ({nome}) => {
   return (vacina ? (
     <section className={styles.detalheContainer}>
       <img className={styles.detalheImg} src={vacina[0].imagem} alt={vacina[0].nome} />
-      <div className={styles.detalheConteudo}>
-        <h1>{vacina[0].nome}</h1>
+      <div>
+        <div className={styles.detalheConteudo}>
+          <h1>{vacina[0].nome}</h1>
+          
+          <div className={styles.textoVacina}>
+            <div className={styles.descricao}>
+              <span className={styles.apresentacao}>{vacina[0].apresentacao}</span>
+            </div>
 
-        <div className={styles.textoVacina}>
-          <div className={styles.descricao}>
-            <span>{vacina[0].apresentacao}</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Máximo de Doses: </strong></span>
+              <span>{vacina[0].maximoDoses}</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Máximo de Doses: </strong></span>
-            <span>{vacina[0].maximoDoses}</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Obrigatória: </strong></span>
+              <span>{(vacina[0].obrigatoriedade) ? "Sim" : "Não" }</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Obrigatória: </strong></span>
-            <span>{(vacina[0].obrigatoriedade) ? "Sim" : "Não" }</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Idade: </strong></span>
+              <span>{vacina[0].idade}</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Idade: </strong></span>
-            <span>{vacina[0].idade}</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Tipo de Vacina: </strong></span>
+              <span>{vacina[0].administracao}</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Tipo de Vacina: </strong></span>
-            <span>{vacina[0].administração}</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Esquema vacinal: </strong></span>
+              <span>{vacina[0].esquema}</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Esquema vacinal: </strong></span>
-            <span>{vacina[0].esquema}</span>
-          </div>
+            <div className={styles.descricao}>
+              <span><strong>Sintomas adversos: </strong></span>
+              <span>{vacina[0].adversos}</span>
+            </div>
 
-          <div className={styles.descricao}>
-            <span><strong>Sintomas adversos: </strong></span>
-            <span>{vacina[0].adversos}</span>
-          </div>
-
-          <div className={styles.descricao}>
-            <span><strong>Contra indicação: </strong></span>
-            <span>{vacina[0].contraIndicação}</span>
+            <div className={styles.descricao}>
+              <span><strong>Contra indicação: </strong></span>
+              <span>{vacina[0].contraIndicacao}</span>
+            </div>
           </div>
         </div>
 

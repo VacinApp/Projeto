@@ -12,7 +12,6 @@
 }
 
 .detalheConteudo {
-  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -28,14 +27,18 @@
 }
 
 .descricao {
-  margin-bottom: 0.5rem;
-  max-height: 350px;
-  overflow-y: auto;
+  margin-bottom: 1rem;
+  line-height: 1.5em;
+}
+
+.apresentacao {
+  line-height: 1.5em;
 }
 
 .botao {
   justify-content: center;
   display: flex;
+  margin-bottom: 8rem;
 }
 
 .detalheBotao {
@@ -70,5 +73,11 @@
   .detalheConteudo {
     padding-inline: 3rem;
     margin-bottom: 0;
+    margin-inline: 2rem;
+  }
+  
+  .textoVacina {
+    max-height: 30rem;
+    overflow-y: auto;
   }
 }

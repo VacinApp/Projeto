@@ -35,8 +35,21 @@
 .temAqui{
   display: none;
 }
+
 .nadaAqui {
   display: flex;
   justify-content: center;
 }
 
+.containerVacinas {
+  padding-bottom: 8rem;
+}
+
+@media (min-width: 768px) {
+  .containerVacinas {
+    max-height: 38.75rem;
+    overflow-y: auto;
+    padding-right: 1rem;
+    padding-bottom: 0;
+  }
+}

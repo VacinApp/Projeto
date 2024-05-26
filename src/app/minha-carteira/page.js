@@ -35,19 +35,22 @@ export default function MinhaCarteira() {
           </Link>
           <h1>Minhas Vacinas</h1>
         </header>
-        {carteira ? (carteira.map((dados) => (
-          <VacinaCadastrada nome={dados.nome}
-            dose={dados.dose}
-            validade={dados.validade}
-            data={dados.data}
-            lote={dados.lote}
-            lab={dados.lab}
-            obs={dados.obs}
-            id={dados.id}
-            key={dados.id}
-            onUpdate={loadVacinas}
-          />
-        ))) : (<p>Loading</p>)}
+
+        <div className="containerVacinas">
+          {carteira ? (carteira.map((dados) => (
+            <VacinaCadastrada nome={dados.nome}
+              dose={dados.dose}
+              validade={dados.validade}
+              data={dados.data}
+              lote={dados.lote}
+              lab={dados.lab}
+              obs={dados.obs}
+              id={dados.id}
+              key={dados.id}
+              onUpdate={loadVacinas}
+            />
+          ))) : (<p>Loading</p>)}
+        </div>
         <div className={tamanhoCarteira !== 0 ? 'temAqui' : 'nadaAqui'}>
           <p>Ops! Parece que você ainda não cadastrou nenhuma vacina nesta página.</p>
         </div>
