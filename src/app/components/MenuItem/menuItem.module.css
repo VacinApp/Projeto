@@ -10,6 +10,7 @@
 .menuItem span {
 	margin-top: 10px;
 	color: var(--preto);
+	padding-bottom: 1.2rem;
 }
 
 .active {
