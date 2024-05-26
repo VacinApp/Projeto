@@ -1,4 +1,4 @@
-import FooterNav from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 import Menu from "../components/Menu/menu";
 
 import styles from "./localizacao.module.css";
