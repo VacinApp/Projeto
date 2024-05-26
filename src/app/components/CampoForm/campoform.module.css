@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .campoTexto label {
   display: block;
   font-size: 0.8rem;
@@ -13,4 +15,5 @@
   font-size: 1rem;
   padding: 0.5rem;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }

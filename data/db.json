@@ -17,7 +17,7 @@
     {
       "id": "2",
       "nome": "Dengue",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/dengue.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina atenuada, composta pelos quatro sorotipos vivos do vírus dengue, obtidos separadamente por tecnologia de DNA recombinante. Contém ainda aminoácidos essenciais (incluindo fenilalanina), aminoácidos não essenciais, cloridrato de arginina, sacarose, trealose di-hidratada, sorbitol, trometamol e ureia. O diluente é constituído por cloreto de sódio e água para injeções. Não contém adjuvantes e conservantes.",
@@ -45,7 +45,7 @@
     {
       "id": "4",
       "nome": "dTpa",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/dtpa.png",
       "maximoDoses": 1,
       "obrigatoriedade": true,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém os toxóides diftérico e tetânico (derivados das toxinas produzidas pelas bactérias causadoras das doenças), e componentes da cápsula da bactéria da coqueluche (Bordetella pertussis), sal de alumínio como adjuvante, fenoxietanol, cloreto de sódio e água para injeção.",
@@ -59,7 +59,7 @@
     {
       "id": "5",
       "nome": "dTpa-VIP",
-      "imagem": "/assets/img/vacinas/dtpa.png",
+      "imagem": "/assets/img/vacinas/dtpa_vip.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém os toxoides diftérico e tetânico (derivados das toxinas produzidas pelas bactérias causadoras das doenças), componentes da cápsula da bactéria da coqueluche (Bordetella pertussis), vírus da poliomielite inativados (mortos) tipos 1, 2 e 3, sal de alumínio como adjuvante, 2-fenoxietanol, polissorbato 80, cloreto de sódio e água para injeção. Pode conter ainda traços de formaldeído, neomicina e polimixina B usados no processo de fabricação.",
@@ -74,7 +74,7 @@
       "id": "6",
       "nome": "DT (crianças com encefalite)",
       "maximoDoses": 3,
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/dt_2.png",
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém toxoides diftérico e tetânico, derivados das toxinas produzidas pelas bactérias causadoras das doenças, sal de alumínio como adjuvante, cloreto de sódio, e água para injeção.",
       "idade": "-",
@@ -101,6 +101,7 @@
     {
       "id": "8",
       "nome": "DTPa-VIP/Hib",
+      "imagem": "/assets/img/vacinas/dtpa_vip_hib.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Além dos componentes da vacina tríplice bacteriana acelular (DTPa), contém componente da bactéria Haemophilus influenzae tipo b conjugado e vírus inativados (mortos) da poliomielite tipos 1, 2 e 3. A composição inclui ainda: lactose, cloreto de sódio, 2-fenoxietanol, hidróxido de alumínio e água para injeção. Pode conter traços de antibiótico (estreptomicina, neomicina e polimixina B), formaldeído e soroalbumina de origem bovina.",
@@ -114,6 +115,7 @@
     {
       "id": "9",
       "nome": "DTPa-VIP-HB/Hib",
+      "imagem": "/assets/img/vacinas/dtpa_vip_hb.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Além dos componentes da vacina tríplice bacteriana acelular (DTPa), contém componente da bactéria Haemophilus influenzae tipo b conjugado, vírus inativados (mortos) da poliomielite tipos 1, 2 e 3 e componente da superfície do vírus da hepatite B. A composição inclui ainda: lactose, cloreto de sódio, 2-fenoxietanol, hidróxido de alumínio e água para injeção. Pode conter traços de antibiótico (estreptomicina, neomicina e polimixina B), formaldeído e soroalbumina de origem bovina.",
@@ -127,6 +129,7 @@
     {
       "id": "10",
       "nome": "DTPw",
+      "imagem": "/assets/img/vacinas/dtpw.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. Contém os toxoides diftérico e tetânico (derivados das toxinas produzidas pelas bactérias causadoras das doenças); bactéria morta da coqueluche (Bordetella pertussis); sal de alumínio como adjuvante, cloreto de sódio, e água para injeção.",
@@ -140,6 +143,7 @@
     {
       "id": "11",
       "nome": "DTPw-HB/Hib",
+      "imagem": "/assets/img/vacinas/dtpw_hb.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta por toxoides diftérico e tetânico, combinados com a célula inteira purificada da bactéria da coqueluche (Bordetela pertussis); partícula da superfície do vírus da hepatite B (HBsAg) e componente da cápsula do Haemophilus influenzae tipo b (Hib), conjugado com uma proteína. Contém também fosfato de alumínio, cloreto de sódio e água para injeção.",
@@ -167,7 +171,7 @@
     {
       "id": "13",
       "nome": "Febre Tifoide",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/febreTifoide.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Atualmente utilizam-se dois tipos de vacina contra febre tifóide: a) Vacina parenteral contendo 25mg por dose de polissacarídeo capsular Vi purificado, extraído de Salmonella typhi, em 0,5ml de solução-tampão isotônica com fenol; b) Vacina oral de bactérias vivas atenuadas da cepa Ty2la. Existem em duas apresentações: - cápsulas de gelatina resistentes a ácido. Cada cápsula contém 6 X 109 CFU de Ty21a e 5 a 50 X 109 de Ty21a não-viáveis, com sacarose, ácido ascórbico, mistura de aminoácidos, lactose e estearato de magnésio. - Fomulação em suspensão líquida, com sachets contendo 2 a 10 X 109 CFU de Ty21a, 5 a 60 X 109 Ty21a não-viáveis, sacarose, ácido ascórbico, mistura de aminoácidos, lactose e aspartame. Acompanha um sachet de solução-tampão com bicarbonato de sódio, ácido ascórbico e lactose. 19.3. Idade de aplicação a) a vacina parenteral é utilizada a partir de dois anos de idade; b) a vacina oral sob a forma de cápsulas pode ser utilizada a partir de seis anos de idade e em suspensão líquida a partir de dois anos. 19.4. Via de administração A vacina de polissacarídeo Vi é aplicada por via intramuscular e a vacina Ty21a é administrada por via oral.",
@@ -209,7 +213,7 @@
     {
       "id": "16",
       "nome": "Hepatite A+B",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/hepatite_a_b.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta do vírus inativado (morto) da hepatite A e da proteína de superfície do vírus da hepatite B. Também possui em sua composição: sais de alumínio, formaldeído, sulfato de neomicina, fenoxietanol, polissorbato 20, cloreto de sódio e água para injeção.",
@@ -223,7 +227,7 @@
     {
       "id": "17",
       "nome": "Herpes Zóster",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/herpes.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina composta por vírus vivos atenuados da varicela zóster (VVZ) da cepa Oka/Merck, sacarose, gelatina, ureia, cloreto de sódio, levoglutamato de sódio monoidratado, fosfato de sódio dibásico, fosfato de potássio monobásico, cloreto de potássio, traços de neomicina e de soro de bezerro e água para injeção. Não contém conservantes.",
@@ -237,6 +241,7 @@
     {
       "id": "18",
       "nome": "Hib",
+      "imagem": "/assets/img/vacinas/hib.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "As vacinas contra Haemophilus influenzae do tipo b (Hib) são constituídas pelo polissacarídeo capsular - PRP - (poliribosil-ribitol-fosfato), conjugado quimicamente a uma proteína carreadora. Apresentam-se sob a forma liofilizada acompanhada de diluente, ou em solução, em frasco com dose única ou com múltiplas doses.",
@@ -264,6 +269,7 @@
     {
       "id": "20",
       "nome": "HPV4",
+      "imagem": "/assets/img/vacinas/hpv4.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta pelas proteínas L1 dos papilomavírus humano (HPV) tipos 6,11,16,18, sulfato de hidroxifosfato de alumínio, cloreto de sódio, L-histidina, polissorbato 80, borato de sódio e água para injeção.",
@@ -291,7 +297,7 @@
     {
       "id": "22",
       "nome": "Meningocócica B",
-      "imagem": "",
+      "imagem": "/assets/img/vacinas/meningococica_b.png",
       "maximoDoses": 2,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não causa infecção. É composta por quatro componentes (três proteínas subcapsulares e vesículas da membrana externa do meningococo B), além de hidróxido de alumínio, cloreto de sódio, histidina, sacarose e água para injeção.",
@@ -333,6 +339,7 @@
     {
       "id": "25",
       "nome": "Palivizumabe",
+      "imagem": "/assets/img/vacinas/palivizumabe.png",
       "maximoDoses": 1,
       "obrigatoriedade": false,
       "apresentacao": "O palivizumabe não é uma vacina, mas uma imunoglobulina – um tipo de anticorpo 'pronto' que induz imunização passiva específica contra o vírus sincicial respiratório (VSR). Está incluído aqui porque é a única forma disponível, hoje, para a prevenção de quadros graves de infecções respiratórias em lactentes, como a bronquiolite e, principalmente, pneumonias. Até o momento não dispomos de vacinas contra o VSR. Trata-se de um anticorpo específico contra o VSR, elaborado por técnica de engenharia genética (imunização passiva).",
@@ -346,6 +353,7 @@
     {
       "id": "26",
       "nome": "Pneumocócica 10-valente",
+      "imagem": "/assets/img/vacinas/pneumococica_10.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "Composta de dez sorotipos de Streptococcus pneumoniae (pneumococo), oito deles conjugados com a proteína D do Haemophilus influenzae tipo b, um com o toxoide tetânico e outro com toxoide diftérico. Contém também cloreto de sódio, fosfato de alumínio e água para injeção.",
@@ -359,6 +367,7 @@
     {
       "id": "27",
       "nome": "Pneumocócica 13-valente",
+      "imagem": "/assets/img/vacinas/pneumococica_13.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Composta de 13 sorotipos de Streptococcus pneumoniae (pneumococo) conjugados com a proteína CRM197. Contém também sais de alumínio, cloreto de sódio, ácido succínico, polissorbato 80 e água para injeção. Idade de aplicação",
@@ -386,6 +395,7 @@
     {
       "id": "29",
       "nome": "Raiva",
+      "imagem": "/assets/img/vacinas/raiva.png",
       "maximoDoses": 2,
       "obrigatoriedade": false,
       "apresentacao": "A vacina contra raiva para uso humano, empregada rotineiramente no Brasil, é a vacina do tipo Fuenzalida-Palacios, apresentada sob a forma de suspensão a 2% de cérebros de camundongos lactentes, infectados com vírus da raiva fixo – amostras Productions Virus (PV) ou Challenge Virus Standard (CVS) –, inativados por radiação ultravioleta ou por betapropiolactona, com potência mínima de 1,0UI/ml, tendo o fenol e o timerosal como conservantes. A vacina contra raiva do tipo Fuenzalida-Palacios (que daqui por diante, neste capítulo, passa a ser designada simplesmente por vacina contra raiva) é apresentada sob a forma líquida em ampolas contendo 1,0ml (uma dose para uso em seres humanos).",
@@ -455,6 +465,7 @@
     {
       "id": "34",
       "nome": "VIP",
+      "imagem": "/assets/img/vacinas/vip.png",
       "maximoDoses": 3,
       "obrigatoriedade": true,
       "apresentacao": "É uma vacina oral atenuada bivalente, ou seja, composta pelos vírus da pólio tipos 1 e 3, vivos, mas “enfraquecidos”. Contém ainda cloreto de magnésio, estreptomicina, eritromicina, polissorbato 80, L-arginina e água destilada.",
@@ -510,6 +521,16 @@
       "lote": "H06",
       "lab": "Ronaldo",
       "obs": "Senti dor no braço, tive febre e sintomas da gripe adeus."
+    },
+    {
+      "id": "d7a1b50e-c2ef-4ea7-8ad1-77730a434244",
+      "nome": "BCG",
+      "dose": "1ª Dose",
+      "data": "2024-12-24",
+      "validade": "2024-11-02",
+      "lote": "aqe",
+      "lab": "asdasdas",
+      "obs": "asdxasdxasx"
     }
   ],
   "categoria": [

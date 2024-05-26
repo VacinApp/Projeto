@@ -58,6 +58,7 @@
 .icon-edit,
 .icon-trash {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .icon-chevron-up,

@@ -9,9 +9,9 @@ export default function MenuItem({ text, route, iconClass }) {
   const isActive = pathname === route;
 
   return (
-    <Link className={styles.menuItem} href={route}>
+    <Link className={`${styles.menuItem} ${isActive ? styles.active : ""}`} href={route}>
       <i className={`${iconClass} ${isActive ? styles.activeIcon : ""}`}></i>
-      <span className={isActive ? styles.active : ""}>{text}</span>
+      <span>{text}</span>
     </Link>
   );
 }

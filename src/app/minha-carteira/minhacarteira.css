@@ -1,5 +1,6 @@
 .minhasVacinas {
   margin: 2.5rem 3rem;
+  height: calc(100vh - 150px)
 }
 
 .minhasVacinas h1 {
