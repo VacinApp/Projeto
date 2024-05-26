@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 import { useState, useEffect } from 'react';
-import FooterNav from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 import VacinaCadastrada from "../components/VacinaCadastrada/VacinaCadastrada";
 import { getCarteira } from "@/util/api";
 
@@ -55,7 +55,7 @@ export default function MinhaCarteira() {
           <p>Ops! Parece que você ainda não cadastrou nenhuma vacina nesta página.</p>
         </div>
       </section>
-      <FooterNav />
+      <Footer />
     </div >
   );
 }

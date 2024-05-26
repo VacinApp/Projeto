@@ -613,5 +613,55 @@
       "descricao": "Esta categoria de vacina é administrada diretamente no músculo. Geralmente, contém bactérias inativadas ou seus componentes para desencadear uma resposta imunológica protetora. Ao serem injetadas no músculo, as vacinas intramusculares permitem uma absorção eficiente do antígeno pelo sistema imunológico, promovendo uma resposta imune robusta contra doenças bacterianas.",
       "imagem": "/assets/img/vacinas/intramuscular_bacteria.png"
     }
+  ],
+  "postos": [
+    {
+      "id": "1",
+      "nome": "AMA 12H PRESIDENTE JUSCELINO KUBITSCHEK",
+      "sobre": "AMA - Assistência Médica Ambulatorial",
+      "local": "AV. UTARO KANAI, 286 - COHAB PRESIDENTE JUSCELINO",
+      "cep": "08465-000",
+      "tel": "(11) 4780-5072",
+      "latitude": "-23.565399",
+      "longitude": "-46.398306",
+      "funcionamento": "Segunda a Domingo: 07h às 19h.",
+      "imagem": "/assets/img/postos/amaJK.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "AMA 24H PARQUE ANHANGUERA",
+      "sobre": "AMA 24 H - ASSISTÊNCIA MÉDICA AMBULATORIAL 24 HORAS",
+      "local": "R. PIERRE RENOIR - VIA ANHANGUERA KM 24,5, 100 - JARDIM BRITANIA",
+      "cep": "05269-000",
+      "tel": "(11) 3916-6160",
+      "latitude": "-23.533394",
+      "longitude": "-46.639973",
+      "funcionamento": "Segunda a Domingo: 24 horas.",
+      "imagem": "/assets/img/postos/amaParqueAnhanguera.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "AMA/UBS AGUA RASA",
+      "sobre": "UBS/ Posto de Saúde/ Centro de Saúde",
+      "local": "R. SERRA DE JAIRE, 1480 - ÁGUA RASA",
+      "cep": "03175-001",
+      "tel": "(11) 2605-2156",
+      "latitude": "-23.553542",
+      "longitude": "-46.580281",
+      "funcionamento": "Segunda a Sábado: 07h às 19h.",
+      "imagem": "/assets/img/postos/amaAguaRasa.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "AMA/UBS AGUIA DE HAIA",
+      "sobre": "UBS/ Posto de Saúde/ Centro de Saúde",
+      "local": "R. TANTAS PALAVRAS, 59 - COHAB ÁGUIA DE HAIA",
+      "cep": "08223-510",
+      "tel": "(11) 3756-3264",
+      "latitude": "-23.522136",
+      "longitude": "-46.469323",
+      "funcionamento": "Segunda a Sábado: 07h às 19h.",
+      "imagem": "/assets/img/postos/amaAguiaHaia.jpg"
+    }
   ]
 }

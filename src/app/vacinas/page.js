@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import FooterNav from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 import CardVacina from "../components/CardVacina/CardVacina";
 import styles from "./vacinas.module.css";
 import { useEffect, useState } from "react";
@@ -37,7 +37,7 @@ export default function Vacinas() {
           ))) : (<p>Loading</p>)}
         </div>
       </div>
-      <FooterNav />
+      <Footer />
     </div>
 
   );

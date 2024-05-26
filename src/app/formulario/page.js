@@ -1,7 +1,7 @@
 "use client"
 
 import Formulario from "../components/Formulario/Formulario"
-import FooterNav from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footer"
 import Menu from "../components/Menu/menu";
 
 export default function PagFormulario() {
@@ -11,7 +11,7 @@ export default function PagFormulario() {
 			<div className="conteudo">
 				<Formulario />
 			</div>
-			<FooterNav />
+			<Footer />
 		</div>
 	);
 }   

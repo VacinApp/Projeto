@@ -9,7 +9,7 @@ export default function Localizacao() {
       <Menu />
       <div className={styles.conteudo}>
       </div>
-      <FooterNav />
+      <Footer />
     </div>
   );
 }
