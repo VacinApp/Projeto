@@ -6,12 +6,15 @@ import CampoForm from '../CampoForm/CampoForm';
 import ListaSuspensaForm from '../ListaSuspensaForm/ListaSuspensaForm';
 import AreaTextoForm from '../AreaTextoForm/AreaTextoForm';
 
+import { useRouter } from 'next/navigation';
+
 import './formulario.css';
 import { getCarteira, addVacCarteira } from '@/util/api';
 import {v4 as uuid4} from "uuid";
 import db from '../../../../data/db.json'
 
 const Formulario = () => {
+  const router = useRouter();
 
 	const nomesVacinas = db.vacinas.map((vac) => vac.nome)
 
@@ -51,6 +54,7 @@ const Formulario = () => {
       if (status === 201) {
         getCarteira()
           .then((data) => setVacs(data))
+					router.push('/minha-carteira');
       }
     })
   }
