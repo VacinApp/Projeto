@@ -4,6 +4,7 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
+	color: var(--cinza);
 }
 
 .menuItem span {

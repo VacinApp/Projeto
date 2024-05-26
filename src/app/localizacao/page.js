@@ -1,4 +1,4 @@
-import FooterNav from "../components/FooterNav/FooterNav";
+import FooterNav from "../components/Footer/Footer";
 import Menu from "../components/Menu/menu";
 
 export default function Localizacao() {

@@ -28,6 +28,7 @@
   justify-content: space-between;
   align-items: center; 
   flex-direction: column;
+  max-width: 108.9375rem;
 }
 
 .saiba {
@@ -55,17 +56,30 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 2rem;
-  max-width: 100.405rem;
+  max-width: 108.9375rem;
   width: 100%;
 }
 
 .categorias {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 }
 
+.vacinaLink {
+  margin: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Media Screen */
+@media screen and (min-width: 1060px) {
+  .categorias {
+    justify-content: space-between;
+  }
+}
+
 /* extra large devices: 768 > */
 @media screen and (min-width: 768px) {
   .conteudo h1 {

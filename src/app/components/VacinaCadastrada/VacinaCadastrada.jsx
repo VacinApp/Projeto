@@ -1,8 +1,8 @@
 "use client"
-import { useState, useEffect } from 'react'
+import { useState } from 'react';
 
-import './vacinacadastrada.css'
-import { deleteVacCarteira, getCarteira, updateVacCarteira } from '@/util/api'
+import './vacinacadastrada.css';
+import { deleteVacCarteira, updateVacCarteira } from '@/util/api';
 
 const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUpdate }) => {
 
@@ -50,11 +50,11 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
   }
 
   return (
-    <section className='containerVacinaCadastrada'>
-      <header className='vacinaCadastradaCabecalho'>
+    <section className="containerVacinaCadastrada">
+      <header className="vacinaCadastradaCabecalho">
         <h1>{nome}</h1>
-        <button className='botaoAbrirFechar' onClick={alternarCarteira}>
-          <div className={carteiraAtiva ? 'icon-chevron-up' : 'icon-chevron-down'}></div>
+        <button className="botaoAbrirFechar" onClick={alternarCarteira}>
+          <div className={carteiraAtiva ? "icon-chevron-up" : "icon-chevron-down"}></div>
         </button>
       </header>
 
@@ -64,9 +64,9 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
       </div>
 
       {/* VIZUALIZAÇÃO PADRÃO */}
-      <div className={carteiraAtiva ? 'carteiraAtiva' : 'carteira'}>
-        <div className={edicao ? 'escondido' : undefined}>
-          <div className='carteiraConteudoPrincipal'>
+      <div className={carteiraAtiva ? "carteiraAtiva" : "carteira"}>
+        <div className={edicao ? "escondido" : undefined}>
+          <div className="carteiraConteudoPrincipal">
             <p><strong>Dose: </strong>{dose}</p>
             <p><strong>Validade do Lote: </strong>{validade}</p>
             <p><strong>Laboratório: </strong>{lab}</p>
@@ -78,32 +78,48 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
 
 
         {/* MODO EDIÇÃO */}
-        <div className={edicao ? 'modoEdicao' : 'escondido'}>
-          <label><strong>Dose:</strong></label>
-          <input value={dos} onChange={valor => setDos(valor.target.value)} />
+        <div className={edicao ? "modoEdicao" : "escondido"}>
+          <div className="inputs">
+            <div>
+              <label><strong>Dose:</strong></label>
+              <input className="editar" value={dos} onChange={valor => setDos(valor.target.value)} />
+            </div>
 
-          <label><strong>Validade do Lote:</strong></label>
-          <input value={val} type='date' onChange={valor => setVal(valor.target.value)} />
+            <div>
+              <label><strong>Validade do Lote:</strong></label>
+              <input className="editar" value={val} type='date' onChange={valor => setVal(valor.target.value)} />
+            </div>
 
-          <label><strong>Laboratório:</strong></label>
-          <input value={laboratorio} onChange={valor => setLaboratorio(valor.target.value)} />
+            <div>
+              <label><strong>Laboratório:</strong></label>
+              <input className="editar" value={laboratorio} onChange={valor => setLaboratorio(valor.target.value)} />
+            </div>
 
-          <label><strong>Data da Vacinação:</strong></label>
-          <input value={date} type='date' onChange={valor => setDate(valor.target.value)} />
+            <div>
+              <label><strong>Data da Vacinação:</strong></label>
+              <input className="editar" value={date} type='date' onChange={valor => setDate(valor.target.value)} />
+            </div>
 
-          <label><strong>Lote:</strong></label>
-          <input value={lot} onChange={valor => setLot(valor.target.value)} />
+            <div>
+              <label><strong>Lote:</strong></label>
+              <input className="editar" Nvalue={lot} onChange={valor => setLot(valor.target.value)} />
+            </div>
+          </div>
 
-          <label><strong>Observação:</strong></label>
-          <textarea value={observacao} onChange={valor => setObservacao(valor.target.value)} />
+          <div className="textArea">
+            <label><strong>Observação:</strong></label>
+            <textarea className="editarArea" value={observacao} onChange={valor => setObservacao(valor.target.value)} />
+          </div>
 
-          <button onClick={handleUpdateVacCarteira}>Salvar</button>
+          <div className="botaoSalvar">
+            <button className="salvar" onClick={handleUpdateVacCarteira}>Salvar</button>
+				  </div>
         </div>
 
 
-        <div className='carteiraAcoes'>
-          <div className='icon-edit' onClick={ativarEdicao}></div>
-          <div className='icon-trash' onClick={handleDeleteVacCarteira}></div>
+        <div className="carteiraAcoes">
+          <div className="icon-edit" onClick={ativarEdicao}></div>
+          <div className="icon-trash" onClick={handleDeleteVacCarteira}></div>
         </div>
       </div>
     </section>

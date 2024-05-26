@@ -1,0 +1,42 @@
+.rodape {
+  display: none;
+}
+
+.titulo {
+  width: 12.5rem;
+}
+
+@media (min-width: 768px) {
+  .rodape {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+  }
+
+  .rodape div {
+    margin-top: 1.125rem;
+  }
+
+  .rodape h2,
+  .rodape h3 {
+    color: var(--azul);
+    font-weight: 700;
+  }
+
+  .rodape h2 {
+    font-size: 1.25rem;
+  }
+
+  .rodape h3 {
+    font-size: 1.125rem;
+  }
+
+  .rodape p {
+    color: black;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}

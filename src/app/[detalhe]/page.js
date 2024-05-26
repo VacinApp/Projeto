@@ -1,5 +1,5 @@
 import Detalhe from "../components/Detalhe/Detalhe";
-import FooterNav from "../components/FooterNav/FooterNav";
+import FooterNav from "../components/Footer/Footer";
 import Menu from "../components/Menu/menu";
 
 export default function PagDetalhe({ searchParams }) {

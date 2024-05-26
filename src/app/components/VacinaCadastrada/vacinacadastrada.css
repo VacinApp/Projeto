@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .containerVacinaCadastrada {
   border-bottom: 1px solid var(--cinza-claro);
 }
@@ -55,7 +57,7 @@
 
 .icon-edit,
 .icon-trash {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .icon-chevron-up,
@@ -77,15 +79,78 @@
   display: none;
 }
 
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 1rem;
+}
+
+.editar {
+  background-color: #e5e6e9;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.textArea {
+  margin-top: 1rem;
+}
+
+.editarArea {
+  background-color: #e5e6e9;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 9.7rem;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.botaoSalvar {
+  margin-top: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.salvar {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--azul);
+  color: var(--branco);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 @media (min-width: 1023px) {
   .carteiraConteudoPrincipal {
     display: flex;
     justify-content: space-between;
   }
 
+  .botaoSalvar {
+    justify-content: flex-start;
+  }
+
   .icon-edit,
   .icon-trash {
     font-size: 1.5rem;
     cursor: pointer;
+  }
+}
+
+@media (min-width: 425px) {
+  .inputs {
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
   }
 }

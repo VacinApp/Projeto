@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 import { useState, useEffect } from 'react';
-import FooterNav from "../components/FooterNav/FooterNav";
+import FooterNav from "../components/Footer/Footer";
 import VacinaCadastrada from "../components/VacinaCadastrada/VacinaCadastrada";
 import { getCarteira } from "@/util/api";
 

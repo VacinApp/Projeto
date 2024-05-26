@@ -42,8 +42,8 @@ input[type="date"] {
 
 .campo__data-validade {
   display: flex;
-  gap: 1.25rem;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .campo__data-validade > * {
@@ -68,7 +68,6 @@ input[type="date"] {
   font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
 }
 
 .cadastrar:hover {
@@ -114,5 +113,12 @@ textarea {
 @media (min-width: 1440px) {
   .doutoresImg {
     width: 60%;
+  }
+}
+
+@media (min-width: 425px) {
+  .campo__data-validade {
+    gap: 1.25rem;
+    flex-direction: row;
   }
 }

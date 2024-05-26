@@ -1,17 +1,14 @@
 "use client"
 
-import { usePathname } from 'next/navigation';
-
-import './footerNav.css';
+import styles from './footer.module.css';
 import '../../../../public/assets/icons/style.css';
 
-const FooterNav = () => {
-	const pathname = usePathname()
+const Footer = () => {
 	return (
 		<div>
-			<footer className='rodape'>
+			<footer className={styles.rodape}>
 				<div>
-					<img src='/assets/img/logo.png' className='titulo'/>
+					<img src='/assets/img/logo.png' className={styles.titulo}/>
 					<p>Todos direitos reservados</p>
 				</div>
 
@@ -26,4 +23,4 @@ const FooterNav = () => {
 	);
 }
 
-export default FooterNav;
+export default Footer;
