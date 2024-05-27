@@ -102,7 +102,7 @@ const VacinaCadastrada = ({ nome, dose, validade, data, lote, lab, obs, id, onUp
 
             <div>
               <label><strong>Lote:</strong></label>
-              <input className="editar" Nvalue={lot} onChange={valor => setLot(valor.target.value)} />
+              <input className="editar" value={lot} onChange={valor => setLot(valor.target.value)} />
             </div>
           </div>
 
