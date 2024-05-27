@@ -18,7 +18,6 @@
   background-color: var(--azul);
   padding: 0.5rem;
   border-radius: 50%;
-  transition: 0.3s ease-in-out;
   color: var(--branco);
   font-size: 1.5rem;
 }
@@ -39,6 +38,17 @@
 .nadaAqui {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.semVacina {
+  width: 21rem;
+}
+
+.semVacinaTexto {
+  text-align: center;
 }
 
 .containerVacinas {

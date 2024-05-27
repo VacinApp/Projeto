@@ -23,13 +23,13 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/assets/img/banner/Frame1.png" alt="" />
+          <img src="/assets/img/banner/Frame1.svg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/banner/Frame2.png" alt="" />
+          <img src="/assets/img/banner/Frame2.svg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/img/banner/Frame3.png" alt="" />
+          <img src="/assets/img/banner/Frame3.svg" alt="" />
         </SwiperSlide>
       </Swiper>
     </>

@@ -491,48 +491,7 @@
       "contraIndicacao": "Não existem contra-indicações absolutas para a aplicação de vacina contra poliomielite. Entretanto, nos casos abaixo, a criança deverá ser encaminhada aos Centros de Referência de Imunobiológicos Especiais para receberem a vacina inativada do tipo Salk (VIP): a) crianças imunodeprimidas (com deficiência imunológica congênita ou adquirida) não-vacinadas ou que receberam esquema incompleto de vacinação contra poliomielite; b) crianças que estejam em contato domiciliar com pessoa imunodeficiente suscetível e que necessitem receber vacina contra poliomielite; c) pessoas submetidas a transplante de medula óssea. As crianças com aids devem receber a VIP; quando não disponível esta vacina, deve-se utilizar a VOP; as crianças assintomáticas com infecção pelo VIH podem receber a VOP."
     }
   ],
-  "carteira": [
-    {
-      "id": "1",
-      "nome": "Hepatite A",
-      "dose": "1ª Dose",
-      "data": "2029-06-28",
-      "validade": "2024-10-24",
-      "lote": "H06",
-      "lab": "Fiocruz",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
-    },
-    {
-      "id": "2",
-      "nome": "Penta (DTP/Hib/Hep. B)",
-      "dose": "1ª Dose",
-      "validade": "2023-08-12",
-      "data": "2024-10-24",
-      "lote": "H06",
-      "lab": "Pfizer",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe."
-    },
-    {
-      "id": "3",
-      "nome": "Influenza H1N1",
-      "dose": "1ª Dose",
-      "data": "2027-10-27",
-      "validade": "2024-05-28",
-      "lote": "H06",
-      "lab": "Ronaldo",
-      "obs": "Senti dor no braço, tive febre e sintomas da gripe adeus. e"
-    },
-    {
-      "id": "d7a1b50e-c2ef-4ea7-8ad1-77730a434244",
-      "nome": "BCG",
-      "dose": "1ª Dose",
-      "data": "2024-12-24",
-      "validade": "2024-11-02",
-      "lote": "aqe",
-      "lab": "asdasdas",
-      "obs": "asdxasdxasx"
-    }
-  ],
+  "carteira": [],
   "categoria": [
     {
       "id": "0",

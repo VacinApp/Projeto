@@ -52,7 +52,8 @@ export default function MinhaCarteira() {
           ))) : (<p>Loading</p>)}
         </div>
         <div className={tamanhoCarteira !== 0 ? 'temAqui' : 'nadaAqui'}>
-          <p>Ops! Parece que você ainda não cadastrou nenhuma vacina nesta página.</p>
+          <img className='semVacina' src="/assets/img/form/semvacina.svg" alt="" />
+          <p className='semVacinaTexto'>Ops! Parece que você ainda não cadastrou nenhuma vacina nesta página.</p>
         </div>
       </section>
       <Footer />
