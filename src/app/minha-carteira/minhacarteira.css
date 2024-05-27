@@ -63,3 +63,30 @@
     padding-bottom: 0;
   }
 }
+
+@media (min-width: 768px) and (max-height: 900px) {
+  .containerVacinas {
+    max-height: 35.75rem;
+    overflow-y: auto;
+    padding-right: 1rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-height: 790px) {
+  .containerVacinas {
+    max-height: 30.75rem;
+    overflow-y: auto;
+    padding-right: 1rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-height: 715px) {
+  .containerVacinas {
+    max-height: 25.75rem;
+    overflow-y: auto;
+    padding-right: 1rem;
+    padding-bottom: 0;
+  }
+}
