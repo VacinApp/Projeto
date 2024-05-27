@@ -212,8 +212,8 @@
     },
     {
       "id": "16",
-      "nome": "Hepatite A+B",
-      "imagem": "/assets/img/vacinas/hepatite_a_b.png",
+      "nome": "Hepatite AB",
+      "imagem": "/assets/img/vacinas/hepatiteAB.png",
       "maximoDoses": 3,
       "obrigatoriedade": false,
       "apresentacao": "Trata-se de vacina inativada, portanto, não tem como causar a doença. É composta do vírus inativado (morto) da hepatite A e da proteína de superfície do vírus da hepatite B. Também possui em sua composição: sais de alumínio, formaldeído, sulfato de neomicina, fenoxietanol, polissorbato 20, cloreto de sódio e água para injeção.",

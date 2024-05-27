@@ -18,7 +18,6 @@ const Detalhe = ({nome}) => {
       .then((data) => setCategorias(data), [])
   })
 
-
   return (vacina ? (
     <section className={styles.detalheContainer}>
       <img className={styles.detalheImg} src={vacina[0].imagem} alt={vacina[0].nome} />
