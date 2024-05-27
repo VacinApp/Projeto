@@ -66,8 +66,9 @@ export async function getCarteira() {
 
 export async function getPostos() {
   try {
-    const res = await fetch("http://localhost:8000/postos");
-    return await res.json();
+    const response = await fetch("http://localhost:8000/postos");
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.log("ERROR: ", error);
   }

@@ -9,13 +9,14 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import styles from "./map.module.css";
 
 export default function Map({ postos }) {
+  console.log(postos )
   return (
     <MapContainer
       preferCanvas={true}
       center={[-23.5489, -46.6388]}
       zoom={13}
       scrollWheelZoom={true}
-      style={{ height: "100vh", width: "100%" }}
+      style={{ height: "calc(100vh - 72.38px)", width: "100%" }}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
