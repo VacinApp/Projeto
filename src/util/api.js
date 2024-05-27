@@ -64,6 +64,15 @@ export async function getCarteira() {
   }
 }
 
+export async function getPostos() {
+  try {
+    const res = await fetch("http://localhost:8000/postos");
+    return await res.json();
+  } catch (error) {
+    console.log("ERROR: ", error);
+  }
+}
+
 // ---------- UPDATE ------------
 export async function updateVacCarteira(vac) {
   try {
@@ -79,7 +88,6 @@ export async function updateVacCarteira(vac) {
     console.log("ERROR: " + error)
   }
 }
-
 
 // ---------- DELETE ------------
 export async function deleteVacCarteira(id) {

@@ -1,15 +1,14 @@
-import Footer from "../components/Footer/Footer";
+import { getPostos } from "@/util/api";
+
+import Map from "../components/Map/Map";
 import Menu from "../components/Menu/menu";
 
-import styles from "./localizacao.module.css";
-
-export default function Localizacao() {
+export default async function Localizacao() {
+  const postos = await getPostos();
   return (
     <div>
       <Menu />
-      <div className={styles.conteudo}>
-      </div>
-      <Footer />
+      <Map postos={postos} />
     </div>
   );
 }
