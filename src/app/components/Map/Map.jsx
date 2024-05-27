@@ -9,7 +9,6 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import styles from "./map.module.css";
 
 export default function Map({ postos }) {
-  console.log(postos )
   return (
     <MapContainer
       preferCanvas={true}
