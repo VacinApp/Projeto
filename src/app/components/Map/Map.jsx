@@ -16,7 +16,7 @@ export default function Map({ postos }) {
       center={[-23.5489, -46.6388]}
       zoom={13}
       scrollWheelZoom={true}
-      style={{ height: "calc(100vh - 72.38px)", width: "100%" }}
+      className={styles.mapa}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
