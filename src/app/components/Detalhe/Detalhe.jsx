@@ -14,7 +14,6 @@ const Detalhe = ({nome}) => {
 
   const [categoria, setCategorias] = useState(null);
   useEffect(() => {
-    console.log(vacina)
     getCategoria()
       .then((data) => setCategorias(data), [])
   })
