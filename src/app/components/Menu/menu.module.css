@@ -4,6 +4,7 @@
   padding-left: 20px;
   height: 72.38px;
   justify-content: center;
+  box-shadow: 10px -10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .nav img {
@@ -52,7 +53,6 @@
     top: 0;
     bottom: auto;
     position: absolute;
-    box-shadow: none;
   }
   
   .menu ul {
